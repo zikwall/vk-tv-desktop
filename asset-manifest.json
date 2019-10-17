@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vk-tv-desktop/static/css/main.b100e6da.chunk.css",
+    "main.js": "/vk-tv-desktop/static/js/main.dc5373de.chunk.js",
+    "main.js.map": "/vk-tv-desktop/static/js/main.dc5373de.chunk.js.map",
+    "runtime-main.js": "/vk-tv-desktop/static/js/runtime-main.84069721.js",
+    "runtime-main.js.map": "/vk-tv-desktop/static/js/runtime-main.84069721.js.map",
+    "static/js/2.cbb7e092.chunk.js": "/vk-tv-desktop/static/js/2.cbb7e092.chunk.js",
+    "static/js/2.cbb7e092.chunk.js.map": "/vk-tv-desktop/static/js/2.cbb7e092.chunk.js.map",
+    "index.html": "/vk-tv-desktop/index.html",
+    "precache-manifest.3554dd70e0976aadbf2b8a6bdf4b64a7.js": "/vk-tv-desktop/precache-manifest.3554dd70e0976aadbf2b8a6bdf4b64a7.js",
+    "service-worker.js": "/vk-tv-desktop/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/vk-tv-desktop/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/vk-tv-desktop/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84069721.js",
+    "static/js/2.cbb7e092.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.dc5373de.chunk.js"
+  ]
+}
