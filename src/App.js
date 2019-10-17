@@ -7,7 +7,7 @@ const App = () =>  {
         <>
             <main className="app">
                 <div className="master-container-fluid">
-                    <BrowserRouter>
+                    <BrowserRouter basename={process.env.PUBLIC_URL}>
                         <Switch>
                             <Route exact path="/" component={ Main } />
                             <Route path="/main" component={ Main } />
