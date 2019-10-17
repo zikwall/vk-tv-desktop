@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b55a67529b88488c20e1bb03b85dc095",
+    "revision": "9317055b4e46958b6bf4f550dd7b1e63",
     "url": "/vk-tv-desktop/index.html"
   },
   {
-    "revision": "f5b53fc4aea54f72b36b",
+    "revision": "66a0eb8ab129f1f34f6d",
     "url": "/vk-tv-desktop/static/css/main.f27efc11.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vk-tv-desktop/static/js/2.41d91ece.chunk.js"
   },
   {
-    "revision": "f5b53fc4aea54f72b36b",
-    "url": "/vk-tv-desktop/static/js/main.895b1d73.chunk.js"
+    "revision": "66a0eb8ab129f1f34f6d",
+    "url": "/vk-tv-desktop/static/js/main.10817c95.chunk.js"
   },
   {
     "revision": "74a95159ed98bedab615",
