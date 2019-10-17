@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vk-tv-desktop/precache-manifest.074795cc4c66314d24cd8aeaaa473516.js"
+  "/vk-tv-desktop/precache-manifest.71f0d20e5082e836a063fb0297ff0b7b.js"
 );
 
 self.addEventListener('message', (event) => {
