@@ -1,0 +1,1 @@
+export { default as Teleprogram } from './Teleprogram';

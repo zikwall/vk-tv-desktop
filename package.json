@@ -6,6 +6,7 @@
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.10.2",
     "react-jw-player": "^1.19.0",
     "react-overlayscrollbars": "^0.2.1",
