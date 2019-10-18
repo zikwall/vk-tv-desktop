@@ -32,7 +32,7 @@ const ChannelList = () => {
 
     return (
         <OverlayScrollbarsComponent>
-            <div style={{width: '300px', maxHeight: '500px'}} className="">
+            <div style={{width: '300px', maxHeight: '530px'}} className="">
                 <div className="owl-item">
                     <div className="item" id="sticky-sidebar">
                         <div className="inner-wrapper-sticky" style={{position: 'relative'}}>
