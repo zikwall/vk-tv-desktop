@@ -1,0 +1,23 @@
+.bt_guest_invitation {
+    border-radius: 3px;
+    background: url('../../assets/media/dev.png') no-repeat;
+    color: #fff;
+    background-color: #70aee0;
+    background-position: right 0;
+    background-size: auto 100%;
+    box-sizing: border-box;
+    padding: 23px 31px;
+}
+
+.bt_guest_invitation .title {
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    font-size: 17px;
+}
+
+.bt_guest_invitation .subtitle {
+    line-height: 19px;
+    width: 300px;
+    margin-top: 8px;
+}

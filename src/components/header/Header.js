@@ -1,4 +1,5 @@
 import React from 'react';
+import { Aside } from "../../containers/aside";
 
 const Header = () => {
     return (
@@ -15,6 +16,11 @@ const Header = () => {
                                     </span>
                                 <strong className="p-1 fs-6 fs-lg-8">Росиия 24</strong>
                             </a>
+                        </div>
+                    </div>
+                    <div className="col-auto d-flex justify-content-end justify-content-lg-end align-items-center navbar-secondary ml-auto">
+                        <div className="mr-2">
+                            <Aside />
                         </div>
                     </div>
                 </div>

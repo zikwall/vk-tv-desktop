@@ -6376,7 +6376,7 @@ button::after {
 
 .adonis-player-wrap .adonis-playlist {
     z-index: 1200;
-    width: 595px;
+    width: 350px;
     max-width: 100%;
     background: #fff;
     position: absolute;
@@ -6395,11 +6395,11 @@ button::after {
 }
 
 .adonis-player-wrap .adonis-playlist.off-canvas-right {
-    transform: translate(595px, 0)
+    transform: translate(350px, 0)
 }
 
 .adonis-player-wrap .adonis-playlist.off-canvas-right.show {
-    transform: translate(-595px, 0)
+    transform: translate(-350px, 0)
 }
 
 .adonis-player-wrap .adonis-playlist .jp-title {

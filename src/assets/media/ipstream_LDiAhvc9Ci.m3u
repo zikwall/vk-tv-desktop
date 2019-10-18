@@ -1,0 +1,766 @@
+#EXTM3U catchup="append" catchup-source="?utc=${start}" url-tvg="iptvx.one;iptv-e2-soveni;dortmundez"
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="pervy" tvg-name="Первый HD" tvg-logo="http://www.ipstream.one/picons/ru/pervyj.png" group-title="Базовые Россия",Первый HD
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/pervyHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="pervy" tvg-name="Первый канал" tvg-logo="http://www.ipstream.one/picons/ru/pervyj.png" group-title="Базовые Россия",Первый канал
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/pervy.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rossia1HD" tvg-name="Россия 1 HD" tvg-logo="http://www.ipstream.one/picons/ru/rossia-hd.png" group-title="Базовые Россия",Россия 1 HD
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia1HD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rossia1" tvg-name="Россия 1" tvg-logo="http://www.ipstream.one/picons/ru/rossia1.png" group-title="Базовые Россия",Россия 1
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia1.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tntHD" tvg-name="ТНТ HD" tvg-logo="http://www.ipstream.one/picons/ru/tnt.png" group-title="Базовые Россия",ТНТ HD
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tntHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tnt" tvg-name="ТНТ" tvg-logo="http://www.ipstream.one/picons/ru/tnt.png" group-title="Базовые Россия",ТНТ
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tnt.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="sts" tvg-name="СТС" tvg-logo="http://www.ipstream.one/picons/ru/sts.png" group-title="Базовые Россия",СТС
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sts.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="ntvHD" tvg-name="НТВ HD" tvg-logo="http://www.ipstream.one/picons/ru/ntv-white.png" group-title="Базовые Россия",НТВ HD
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntvHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="ntv" tvg-name="НТВ" tvg-logo="http://www.ipstream.one/picons/ru/ntv-white.png" group-title="Базовые Россия",НТВ
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rentv" tvg-name="РЕН ТВ" tvg-logo="http://www.ipstream.one/picons/ru/rentv.png" group-title="Базовые Россия",РЕН ТВ
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rentv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rentv" tvg-name="РЕН HD" tvg-logo="http://www.ipstream.one/picons/ru/rentv.png" group-title="Базовые Россия",РЕН HD
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rentvHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tvcentr" tvg-name="ТВЦ" tvg-logo="http://www.ipstream.one/picons/ru/tvcentr.png" group-title="Базовые Россия",ТВЦ
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tvcentr.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tv3-ru" tvg-name="ТВ-3" tvg-logo="http://www.ipstream.one/picons/ru/tv3.png" group-title="Базовые Россия",ТВ-3
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tv3-ru.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="domashny" tvg-name="Домашний" tvg-logo="http://www.ipstream.one/picons/ru/domashny.png" group-title="Базовые Россия",Домашний
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/domashny.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="5kanal-ru" tvg-name="Пятый канал" tvg-logo="http://www.ipstream.one/picons/ru/5kanal-ru.png" group-title="Базовые Россия",Пятый канал
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/5kanal-ru.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="mir" tvg-name="Мир" tvg-logo="http://www.ipstream.one/picons/ru/mir.png" group-title="Базовые Россия",Мир
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mir.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="mir-premium" tvg-name="Мир Premium HD" tvg-logo="http://www.ipstream.one/picons/ru/mir.png" group-title="Базовые Россия",Мир Premium HD
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mir-premium.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="otr" tvg-name="ОТР" tvg-logo="http://www.ipstream.one/picons/ru/otr.jpg" group-title="Базовые Россия",ОТР
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/otr.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="ntv-mir" tvg-name="НТВ Мир" tvg-logo="http://www.ipstream.one/picons/ru/ntvmir.png" group-title="Базовые Россия",НТВ Мир
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv-mir.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="che" tvg-name="Че" tvg-logo="http://www.ipstream.one/picons/ru/che.png" group-title="Базовые Россия",Че
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/che.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rossia-k" tvg-name="Россия-Культура" tvg-logo="http://www.ipstream.one/picons/ru/rosskult.png" group-title="Базовые Россия",Россия-Культура
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia-k.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="zvezda" tvg-name="Телеканал Звезда" tvg-logo="http://www.ipstream.one/picons/ru/zvezda.png" group-title="Базовые Россия",Телеканал Звезда
+#EXTGRP:Базовые Россия
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/zvezda.ts
+#EXTINF:0 catchup-days="0" tvg-id="pervy-pl2" tvg-name="Первый канал (+2)" tvg-logo="http://www.ipstream.one/picons/ru/pervyj_plus2.png" group-title="Базовый Россия +2",Первый канал (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/pervy-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="rossia1-pl2" tvg-name="Россия 1 (+2)" tvg-logo="http://www.ipstream.one/picons/ru/russia1plus2.png" group-title="Базовый Россия +2",Россия 1 (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia1-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="tnt-pl2" tvg-name="ТНТ (+2)" tvg-logo="http://www.ipstream.one/picons/ru/tntplus2.png" group-title="Базовый Россия +2",ТНТ (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tnt-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="sts-pl2" tvg-name="СТС (+2)" tvg-logo="http://www.ipstream.one/picons/ru/sts-pl2.png" group-title="Базовый Россия +2",СТС (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sts-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="ntv-pl2" tvg-name="НТВ (+2)" tvg-logo="http://www.ipstream.one/picons/ru/ntvplus2.png" group-title="Базовый Россия +2",НТВ (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="rentv-pl2" tvg-name="РЕН ТВ (+2)" tvg-logo="http://www.ipstream.one/picons/ru/rentvplus2.png" group-title="Базовый Россия +2",РЕН ТВ (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rentv-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="tvcentr-pl2" tvg-name="ТВЦ (+2)" tvg-logo="http://www.ipstream.one/picons/ru/tvc+2.png" group-title="Базовый Россия +2",ТВЦ (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tvcentr-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="tv3-ru-pl2" tvg-name="ТВ-3 (+2)" tvg-logo="http://www.ipstream.one/picons/ru/tv3+2.png" group-title="Базовый Россия +2",ТВ-3 (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tv3-ru-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="domashny-pl2" tvg-name="Домашний (+2)" tvg-logo="http://www.ipstream.one/picons/ru/domashniy+2.png" group-title="Базовый Россия +2",Домашний (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/domashny-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="5kanal-ru-pl2" tvg-name="Пятый канал (+2)" tvg-logo="http://www.ipstream.one/picons/ru/5+2.png" group-title="Базовый Россия +2",Пятый канал (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/5kanal-ru-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="piatnica-pl2" tvg-name="Пятница (+2)" tvg-logo="http://www.ipstream.one/picons/ru/piatnica+2.png" group-title="Базовый Россия +2",Пятница (+2)
+#EXTGRP:Базовый Россия +2
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/piatnica-pl2.ts
+#EXTINF:0 catchup-days="0" tvg-id="pervy-pl4" tvg-name="Первый канал (+4)" tvg-logo="http://www.ipstream.one/picons/ru/perviyplus4.png" group-title="Базовый Россия +4",Первый канал (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/pervy-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="rossia1-pl4" tvg-name="Россия 1 (+4)" tvg-logo="http://www.ipstream.one/picons/ru/rossiaplus4.png" group-title="Базовый Россия +4",Россия 1 (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia1-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="tnt-pl4" tvg-name="ТНТ (+4)" tvg-logo="http://www.ipstream.one/picons/ru/tntplus4.png" group-title="Базовый Россия +4",ТНТ (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tnt-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="sts-pl4" tvg-name="СТС (+4)" tvg-logo="http://www.ipstream.one/picons/ru/sts-pl4.png" group-title="Базовый Россия +4",СТС (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sts-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="ntv-pl4" tvg-name="НТВ (+4)" tvg-logo="http://www.ipstream.one/picons/ru/ntvplus4.png" group-title="Базовый Россия +4",НТВ (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="rentv-pl4" tvg-name="РЕН ТВ (+4)" tvg-logo="http://www.ipstream.one/picons/ru/rentvpplus4.png" group-title="Базовый Россия +4",РЕН ТВ (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rentv-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="tvcentr-pl4" tvg-name="ТВЦ (+4)" tvg-logo="http://www.ipstream.one/picons/ru/tvc+4.png" group-title="Базовый Россия +4",ТВЦ (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tvcentr-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="tv3-ru-pl4" tvg-name="ТВ-3 (+4)" tvg-logo="http://www.ipstream.one/picons/ru/tv3+4.png" group-title="Базовый Россия +4",ТВ-3 (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tv3-ru-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="domashny-pl4" tvg-name="Домашний (+4)" tvg-logo="http://www.ipstream.one/picons/ru/domashniy+4.png" group-title="Базовый Россия +4",Домашний (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/domashny-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="5kanal-ru-pl4" tvg-name="Пятый канал (+4)" tvg-logo="http://www.ipstream.one/picons/ru/5+4.png" group-title="Базовый Россия +4",Пятый канал (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/5kanal-ru-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="piatnica-pl4" tvg-name="Пятница (+4)" tvg-logo="http://www.ipstream.one/picons/ru/piatnica+4.png" group-title="Базовый Россия +4",Пятница (+4)
+#EXTGRP:Базовый Россия +4
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/piatnica-pl4.ts
+#EXTINF:0 catchup-days="0" tvg-id="pervy-pl6" tvg-name="Первый канал (+6)" tvg-logo="http://www.ipstream.one/picons/ru/perviyplus6.png" group-title="Базовый Россия +6",Первый канал (+6)
+#EXTGRP:Базовый Россия +6
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/pervy-pl6.ts
+#EXTINF:0 catchup-days="0" tvg-id="rossia1-pl6" tvg-name="Россия 1 (+6)" tvg-logo="http://www.ipstream.one/picons/ru/russiaplus6.png" group-title="Базовый Россия +6",Россия 1 (+6)
+#EXTGRP:Базовый Россия +6
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia1-pl6.ts
+#EXTINF:0 catchup-days="0" tvg-id="tnt-pl7" tvg-name="ТНТ (+7)" tvg-logo="http://www.ipstream.one/picons/ru/tntplus7.png" group-title="Базовый Россия +7",ТНТ (+7)
+#EXTGRP:Базовый Россия +7
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tnt-pl7.ts
+#EXTINF:0 catchup-days="0" tvg-id="sts-love-pl7" tvg-name="СТС (+7)" tvg-logo="" group-title="Базовый Россия +7",СТС (+7)
+#EXTGRP:Базовый Россия +7
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sts-love-pl7.ts
+#EXTINF:0 catchup-days="0" tvg-id="ntv-pl7" tvg-name="НТВ (+7)" tvg-logo="http://www.ipstream.one/picons/ru/ntvplus7.png" group-title="Базовый Россия +7",НТВ (+7)
+#EXTGRP:Базовый Россия +7
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv-pl7.ts
+#EXTINF:0 catchup-days="0" tvg-id="rentv-pl7" tvg-name="РЕН ТВ (+7)" tvg-logo="" group-title="Базовый Россия +7",РЕН ТВ (+7)
+#EXTGRP:Базовый Россия +7
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rentv-pl7.ts
+#EXTINF:0 catchup-days="0" tvg-id="pervy-pl8" tvg-name="Первый канал (+8)" tvg-logo="http://www.ipstream.one/picons/ru/perviyplus8.png" group-title="Базовый Россия +8",Первый канал (+8)
+#EXTGRP:Базовый Россия +8
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/pervy-pl8.ts
+#EXTINF:0 catchup-days="0" tvg-id="rossia1-pl8" tvg-name="Россия 1 (+8)" tvg-logo="http://www.ipstream.one/picons/ru/russiaplus8.png" group-title="Базовый Россия +8",Россия 1 (+8)
+#EXTGRP:Базовый Россия +8
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia1-pl8.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tnt4" tvg-name="ТНТ4" tvg-logo="http://www.ipstream.one/picons/ru/tnt4.png" group-title="Развлекательные",ТНТ4
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tnt4.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="sts-love" tvg-name="СТС Love" tvg-logo="http://www.ipstream.one/picons/ru/sts-love.png" group-title="Развлекательные",СТС Love
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sts-love.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kvn-tv" tvg-name="КВН ТВ" tvg-logo="http://www.ipstream.one/picons/ru/kvn-tv.png" group-title="Развлекательные",КВН ТВ
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kvn-tv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="piatnica" tvg-name="Пятница HD" tvg-logo="http://www.ipstream.one/picons/ru/pyatnica.png" group-title="Развлекательные",Пятница HD
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/piatnicaHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="piatnica" tvg-name="Пятница" tvg-logo="http://www.ipstream.one/picons/ru/pyatnica.png" group-title="Развлекательные",Пятница
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/piatnica.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="yu" tvg-name="Ю" tvg-logo="http://www.ipstream.one/picons/ru/yu.png" group-title="Развлекательные",Ю
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/yu.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="super" tvg-name="Супер" tvg-logo="http://www.ipstream.one/picons/ru/super.png" group-title="Развлекательные",Супер
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/super.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="fanhd" tvg-name="FAN" tvg-logo="http://www.ipstream.one/picons/ru/fan.png" group-title="Развлекательные",FAN
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/fan.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="fanhd" tvg-name="FAN HD" tvg-logo="http://www.ipstream.one/picons/ru/fan.png" group-title="Развлекательные",FAN HD
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/fanhd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="e-tv" tvg-name="E tv" tvg-logo="http://www.ipstream.one/picons/ru/e-tv.png" group-title="Развлекательные",E tv
+#EXTGRP:Развлекательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/e-tv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="365-dnej" tvg-name="365 дней ТВ" tvg-logo="http://www.ipstream.one/picons/ru/365-dnej.png" group-title="Познавательные",365 дней ТВ
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/365-dnej.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="bobior" tvg-name="Бобёр" tvg-logo="http://www.ipstream.one/picons/ru/bober.png" group-title="Познавательные",Бобёр
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/bobior.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="eda-hd" tvg-name="Еда Премиум" tvg-logo="http://www.ipstream.one/picons/ru/eda-hd.png" group-title="Познавательные",Еда Премиум
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/eda-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="food-network" tvg-name="Food Network" tvg-logo="http://www.ipstream.one/picons/ru/food-network.png" group-title="Познавательные",Food Network
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/food-network.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="food-networkHD" tvg-name="Food Network HD" tvg-logo="http://www.ipstream.one/picons/ru/food-network.png" group-title="Познавательные",Food Network HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/food-networkHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="viasat-history" tvg-name="Viasat History" tvg-logo="http://www.ipstream.one/picons/ru/viasathistory.ru.png" group-title="Познавательные",Viasat History
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/viasat-history.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="viasat-explore" tvg-name="Viasat Explore" tvg-logo="http://www.ipstream.one/picons/ru/viasatexplore.ru.png" group-title="Познавательные",Viasat Explore
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/viasat-explore.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="viasat-nature" tvg-name="Viasat Nature" tvg-logo="http://www.ipstream.one/picons/ru/viasatnature.ru.png" group-title="Познавательные",Viasat Nature
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/viasat-nature.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="national-geographic" tvg-name="Nat Geographic" tvg-logo="http://www.ipstream.one/picons/ru/natgeo.ru.png" group-title="Познавательные",Nat Geographic
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/national-geographic.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="national-geographic" tvg-name="National Geographic HD" tvg-logo="http://www.ipstream.one/picons/ru/national-geographic-hd.png" group-title="Познавательные",National Geographic HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/national-geographicHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="history-hd" tvg-name="History HD" tvg-logo="http://www.ipstream.one/picons/ru/history_hd.png" group-title="Познавательные",History HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/history-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="h2" tvg-name="H2" tvg-logo="http://www.ipstream.one/picons/ru/h2.png" group-title="Познавательные",H2
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/h2.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="ntv-style" tvg-name="НТВ Стиль" tvg-logo="http://www.ipstream.one/picons/ru/ntv-style.png" group-title="Познавательные",НТВ Стиль
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv-style.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="viasat-nature-history-hd" tvg-name="Viasat Nature/History HD" tvg-logo="http://www.ipstream.one/picons/ru/viasat-nature-history-hd.png" group-title="Познавательные",Viasat Nature/History HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/viasat-nature-history-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild HD" tvg-logo="http://www.ipstream.one/picons/ru/natgeowild.ru.png" group-title="Познавательные",Nat Geo Wild HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nat-geo-wild.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="avto24" tvg-name="Авто 24" tvg-logo="http://www.ipstream.one/picons/ru/avto24.png" group-title="Познавательные",Авто 24
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/avto24.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="drive" tvg-name="Драйв" tvg-logo="http://www.ipstream.one/picons/ru/drive.png" group-title="Познавательные",Драйв
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/drive.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="avto-plus" tvg-name="Авто Плюс" tvg-logo="http://www.ipstream.one/picons/ru/avto-plus.png" group-title="Познавательные",Авто Плюс
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/avto-plus.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="morskoy" tvg-name="Морской" tvg-logo="http://www.ipstream.one/picons/ru/morskoy.png" group-title="Познавательные",Морской
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/morskoy.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="discovery-channel" tvg-name="Discovery Channel" tvg-logo="http://www.ipstream.one/picons/ru/discoverychannel.ru.png" group-title="Познавательные",Discovery Channel
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/discovery-channel.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="discovery-channel" tvg-name="Discovery Channel HD" tvg-logo="http://www.ipstream.one/picons/ru/discoverychannel.ru.png" group-title="Познавательные",Discovery Channel HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/discovery-channelHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="id-xtra-ru" tvg-name="ID Xtra" tvg-logo="http://www.ipstream.one/picons/ru/idxtra.ru.png" group-title="Познавательные",ID Xtra
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/id-xtra-ru.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="dtx" tvg-name="DTX" tvg-logo="http://www.ipstream.one/picons/ru/dtx.png" group-title="Познавательные",DTX
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/dtx.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="discovery-science" tvg-name="Discovery Science" tvg-logo="http://www.ipstream.one/picons/ru/discovery-science.png" group-title="Познавательные",Discovery Science
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/discovery-science.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="discovery-science" tvg-name="Discovery Science HD" tvg-logo="http://www.ipstream.one/picons/ru/discovery-science.png" group-title="Познавательные",Discovery Science HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/discovery-scienceHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="travel-channel" tvg-name="Travel Channel HD" tvg-logo="http://www.ipstream.one/picons/ru/travel-channel.png" group-title="Познавательные",Travel Channel HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/travel-channelHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="travel-adventure" tvg-name="Travel+Adventure" tvg-logo="http://www.ipstream.one/picons/ru/travel-adventure.png" group-title="Познавательные",Travel+Adventure
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/travel-adventure.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="travel-adventure" tvg-name="Travel+Adventure HD" tvg-logo="http://www.ipstream.one/picons/ru/travel-adventure.png" group-title="Познавательные",Travel+Adventure HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/travel-adventureHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nauka-20" tvg-name="Наука 2.0" tvg-logo="http://www.ipstream.one/picons/ru/nauka-20.png" group-title="Познавательные",Наука 2.0
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nauka-20.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="eureka-hd" tvg-name="Eureka HD" tvg-logo="http://www.ipstream.one/picons/ru/eureka-hd.png" group-title="Познавательные",Eureka HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/eureka-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="ntv-pravo" tvg-name="НТВ Право" tvg-logo="http://www.ipstream.one/picons/ru/ntv-pravo.png" group-title="Познавательные",НТВ Право
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv-pravo.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="prikluchenia-hd" tvg-name="Приключения HD" tvg-logo="http://www.ipstream.one/picons/ru/priklhd.png" group-title="Познавательные",Приключения HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/prikluchenia-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="animal-planet" tvg-name="Animal Planet" tvg-logo="http://www.ipstream.one/picons/ru/animal-planet.png" group-title="Познавательные",Animal Planet
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/animal-planet.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="animal-planet" tvg-name="Animal Planet HD" tvg-logo="http://www.ipstream.one/picons/ru/animal-planet.png" group-title="Познавательные",Animal Planet HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/animal-planetHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="v-mire-zhivotnyx-hd" tvg-name="В мире животных HD" tvg-logo="http://www.ipstream.one/picons/ru/v-mire-zhivotnyx.png" group-title="Познавательные",В мире животных HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/v-mire-zhivotnyx-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="fine-living" tvg-name="Fine Living" tvg-logo="http://www.ipstream.one/picons/ru/fineliving.ru.png" group-title="Познавательные",Fine Living
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/fine-living.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="fine-living" tvg-name="Fine living HD" tvg-logo="http://www.ipstream.one/picons/ru/fineliving.ru.png" group-title="Познавательные",Fine living HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/fine-livingHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tlc" tvg-name="TLC" tvg-logo="http://www.ipstream.one/picons/ru/tlc.ru.png" group-title="Познавательные",TLC
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tlc.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tlc" tvg-name="TLC HD" tvg-logo="http://www.ipstream.one/picons/ru/tlc.ru.png" group-title="Познавательные",TLC HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tlcHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="oxota-i-rybalka" tvg-name="Охота и рыбалка" tvg-logo="http://www.ipstream.one/picons/ru/ohotaribalka.png" group-title="Познавательные",Охота и рыбалка
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/oxota-i-rybalka.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rtg-hd" tvg-name="RTG HD" tvg-logo="http://www.ipstream.one/picons/ru/RTG_hd.png" group-title="Познавательные",RTG HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rtg-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="planeta-hd" tvg-name="Планета HD" tvg-logo="http://www.ipstream.one/picons/ru/planeta-hd.png" group-title="Познавательные",Планета HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/planeta-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="dikaya-oxota-hd" tvg-name="Дикая охота HD" tvg-logo="http://www.ipstream.one/picons/ru/dikaya-oxota-hd.png" group-title="Познавательные",Дикая охота HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/dikaya-oxota-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="dikaya-rybalka-hd" tvg-name="Дикая рыбалка HD" tvg-logo="http://www.ipstream.one/picons/ru/dikaya-rybalka-hd.png" group-title="Познавательные",Дикая рыбалка HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/dikaya-rybalka-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="oxotnik-i-rybolov-hd" tvg-name="Охотник и Рыболов HD" tvg-logo="http://www.ipstream.one/picons/ru/ohotnikribolov.png" group-title="Познавательные",Охотник и Рыболов HD
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/oxotnik-i-rybolov-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="dikiy" tvg-name="Дикий" tvg-logo="http://www.ipstream.one/picons/ru/dikiy.png" group-title="Познавательные",Дикий
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/dikiy.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="moya-planeta" tvg-name="Моя Планета" tvg-logo="http://www.ipstream.one/picons/ru/moya-planeta.png" group-title="Познавательные",Моя Планета
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/moya-planeta.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="" tvg-name="Кухня ТВ" tvg-logo="" group-title="Познавательные",Кухня ТВ
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kuhnya.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="" tvg-name="HD Life" tvg-logo="http://www.ipstream.one/picons/ru/hdlife.png" group-title="Познавательные",HD Life
+#EXTGRP:Познавательные
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/hdlife.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinopokaz-hd1" tvg-name="Шокирующее" tvg-logo="http://www.ipstream.one/picons/ru/shokiruyushchee.png" group-title="Кино",Шокирующее
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinopokaz-hd1.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinopokaz-hd2" tvg-name="Комедийное HD" tvg-logo="http://www.ipstream.one/picons/ru/komediynoe.png" group-title="Кино",Комедийное HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinopokaz-hd2.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="paramount-comedy" tvg-name="Paramount Comedy" tvg-logo="http://www.ipstream.one/picons/ru/paramount_comedy.png" group-title="Кино",Paramount Comedy
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/paramount-comedy.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="paramount-comedy-hd" tvg-name="Paramount Comedy HD" tvg-logo="http://www.ipstream.one/picons/ru/paramount_comedy.png" group-title="Кино",Paramount Comedy HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/paramount-comedy-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="foxHD" tvg-name="FOX HD" tvg-logo="http://www.ipstream.one/picons/ru/fox.png" group-title="Кино",FOX HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/foxHD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="foxlife" tvg-name="Fox Life" tvg-logo="http://www.ipstream.one/picons/ru/foxlife.ru.png" group-title="Кино",Fox Life
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/foxlife.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="fox" tvg-name="Fox Russia" tvg-logo="http://www.ipstream.one/picons/ru/fox.png" group-title="Кино",Fox Russia
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/fox.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="amedia1" tvg-name="Amedia 1" tvg-logo="http://www.ipstream.one/picons/ru/amedia1.png" group-title="Кино",Amedia 1
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/amedia1.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="amedia2" tvg-name="Amedia 2" tvg-logo="http://www.ipstream.one/picons/ru/amedia2.png" group-title="Кино",Amedia 2
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/amedia2.ts
+#EXTINF:0 catchup="shift" catchup-days="3" timeshift="3" tvg-id="amedia-hit" tvg-name="Amedia Hit" tvg-logo="http://www.ipstream.one/picons/ru/amedia-hit.png" group-title="Кино",Amedia Hit
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/amedia-hit.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="amedia-premium" tvg-name="AMEDIA Premium HD" tvg-logo="http://www.ipstream.one/picons/ru/amedia-premium.png" group-title="Кино",AMEDIA Premium HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/amedia-premium.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="domkino-premium" tvg-name="Дом Кино Премиум HD" tvg-logo="http://www.ipstream.one/picons/ru/dom-kino-premium.png" group-title="Кино",Дом Кино Премиум HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/domkino-premium.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="evrokino" tvg-name="Еврокино" tvg-logo="http://www.ipstream.one/picons/ru/eurokino.png" group-title="Кино",Еврокино
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/evrokino.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kino-tv" tvg-name="КИНО ТВ" tvg-logo="http://www.ipstream.one/picons/ru/kino-tv.png" group-title="Кино",КИНО ТВ
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kino-tv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kino-tvhd" tvg-name="Кино ТВ HD" tvg-logo="http://www.ipstream.one/picons/ru/kino-tv.png" group-title="Кино",Кино ТВ HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kino-tvhd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="lubimoe-kino" tvg-name="Любимое Кино" tvg-logo="http://www.ipstream.one/picons/ru/nashe-lubimoe-kino.png" group-title="Кино",Любимое Кино
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nashe-lubimoe-kino.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="domkino" tvg-name="Дом Кино" tvg-logo="http://www.ipstream.one/picons/ru/dom-kino.png" group-title="Кино",Дом Кино
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/domkino.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nash-kinoroman" tvg-name="Наш Кинороман HD" tvg-logo="http://www.ipstream.one/picons/ru/nashkinoroman.png" group-title="Кино",Наш Кинороман HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nash-kinoroman.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nash-detektiv" tvg-name="Наше Крутое HD" tvg-logo="http://www.ipstream.one/picons/ru/nashe-krutoe.png" group-title="Кино",Наше Крутое HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nash-detektiv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="sony-scifi" tvg-name="SONY Sci-Fi" tvg-logo="http://www.ipstream.one/picons/ru/sony-scifi.png" group-title="Кино",SONY Sci-Fi
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sony-scifi.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="strashnoe-hd" tvg-name="Страшное HD" tvg-logo="http://www.ipstream.one/picons/ru/strashnoe-hd.png" group-title="Кино",Страшное HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/strashnoe-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nst" tvg-name="НСТ" tvg-logo="http://www.ipstream.one/picons/ru/nst.png" group-title="Кино",НСТ
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nst.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="hollywood-hd" tvg-name="Hollywood HD" tvg-logo="http://www.ipstream.one/picons/ru/hollywoodhd.png" group-title="Кино",Hollywood HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/hollywood-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="sony-enter" tvg-name="Sony Entertainment Television" tvg-logo="http://www.ipstream.one/picons/ru/sonyentertainment.ru.png" group-title="Кино",Sony Entertainment Television
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sony-enter.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tv1000" tvg-name="TV 1000" tvg-logo="http://www.ipstream.one/picons/ru/tv1000.png" group-title="Кино",TV 1000
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tv1000.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tv1000-action" tvg-name="TV1000 Action" tvg-logo="http://www.ipstream.one/picons/ru/tv1000action.png" group-title="Кино",TV1000 Action
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tv1000-action.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="vip-comedy" tvg-name="VIP Comedy" tvg-logo="http://www.ipstream.one/picons/ru/vip-comedy.png" group-title="Кино",VIP Comedy
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/vip-comedy.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="vip-megahit" tvg-name="VIP Megahit" tvg-logo="http://www.ipstream.one/picons/ru/vip-megahit.png" group-title="Кино",VIP Megahit
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/vip-megahit.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="vip-premiere" tvg-name="VIP Premiere" tvg-logo="http://www.ipstream.one/picons/ru/vip-premiere.png" group-title="Кино",VIP Premiere
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/vip-premiere.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tv1000-russkoe-kino" tvg-name="TV1000 Русское кино" tvg-logo="http://www.ipstream.one/picons/ru/tv1000ruskino.png" group-title="Кино",TV1000 Русское кино
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tv1000-russkoe-kino.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tv1000-premium" tvg-name="TV1000 Premium HD" tvg-logo="http://www.ipstream.one/picons/ru/tv1000premium.png" group-title="Кино",TV1000 Premium HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tv1000-premium.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="russky-bestseller" tvg-name="Русский бестселлер" tvg-logo="http://www.ipstream.one/picons/ru/rusbestseller.png" group-title="Кино",Русский бестселлер
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/russky-bestseller.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="russky-detektiv" tvg-name="Русский детектив" tvg-logo="http://www.ipstream.one/picons/ru/rusdetektiv.png" group-title="Кино",Русский детектив
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/russky-detektiv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="russkaya-komedia" tvg-name="Русская комедия" tvg-logo="http://www.ipstream.one/picons/ru/ruskomed.png" group-title="Кино",Русская комедия
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/russkaya-komedia.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="russky-illuzion" tvg-name="Русский Иллюзион" tvg-logo="http://www.ipstream.one/picons/ru/rusiluzion.png" group-title="Кино",Русский Иллюзион
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/russky-illuzion.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="russky-roman" tvg-name="Русский роман" tvg-logo="http://www.ipstream.one/picons/ru/russky-roman.png" group-title="Кино",Русский роман
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/russky-roman.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinopremium-hd" tvg-name="Кинопремиум HD" tvg-logo="http://www.ipstream.one/picons/ru/kinopremiumhd.png" group-title="Кино",Кинопремиум HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinopremium-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="ostrosiuzhetnoe-hd" tvg-name="Остросюжетное HD" tvg-logo="http://www.ipstream.one/picons/ru/ostrosuzet.png" group-title="Кино",Остросюжетное HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ostrosiuzhetnoe-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="1" timeshift="1" tvg-id="ultra-hd-cinema" tvg-name="Ultra HD Cinema" tvg-logo="http://www.ipstream.one/picons/ru/ultrahdsinema.png" group-title="Кино",Ultra HD Cinema
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ultra-hd-cinema.ts
+#EXTINF:0 catchup="shift" catchup-days="1" timeshift="1" tvg-id="kino-ultra-hd" tvg-name="Кино UHD" tvg-logo="http://www.ipstream.one/picons/ru/uhd-kino.jpg" group-title="Кино",Кино UHD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kino-ultra-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="1" timeshift="1" tvg-id="serial-ultrahd" tvg-name="Сериал UHD" tvg-logo="http://www.ipstream.one/picons/ru/uhd-serial.jpg" group-title="Кино",Сериал UHD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/serial-ultrahd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="pobeda" tvg-name="Победа" tvg-logo="http://www.ipstream.one/picons/ru/pobeda.png" group-title="Кино",Победа
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/pobeda.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="ntv-serial" tvg-name="НТВ Сериал" tvg-logo="http://www.ipstream.one/picons/ru/ntv-serial.png" group-title="Кино",НТВ Сериал
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ntv-serial.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="mir-seriala" tvg-name="Мир Сериала" tvg-logo="http://www.ipstream.one/picons/ru/mir-seriala.png" group-title="Кино",Мир Сериала
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mir-seriala.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="spike" tvg-name="Spike Russia" tvg-logo="http://www.ipstream.one/picons/ru/spike.png" group-title="Кино",Spike Russia
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/spike.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="shot-tv" tvg-name="SHOT TV" tvg-logo="http://www.ipstream.one/picons/ru/shottv.png" group-title="Кино",SHOT TV
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/shot-tv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="sony-turbo" tvg-name="Sony Turbo" tvg-logo="http://www.ipstream.one/picons/ru/sony-turbo.png" group-title="Кино",Sony Turbo
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sony-turbo.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="paramount-channel" tvg-name="Paramount Channel" tvg-logo="http://www.ipstream.one/picons/ru/paramount-channel.png" group-title="Кино",Paramount Channel
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/paramount-channel.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinoxit" tvg-name="КИНОХИТ" tvg-logo="http://www.ipstream.one/picons/ru/kino_xit.png" group-title="Кино",КИНОХИТ
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinoxit.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinomiks" tvg-name="КИНОМИКС" tvg-logo="http://www.ipstream.one/picons/ru/kinomiks.png" group-title="Кино",КИНОМИКС
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinomiks.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinoseria" tvg-name="КИНОСЕРИЯ" tvg-logo="http://www.ipstream.one/picons/ru/kinoseria.png" group-title="Кино",КИНОСЕРИЯ
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinoseria.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinokomedia" tvg-name="КИНОКОМЕДИЯ" tvg-logo="http://www.ipstream.one/picons/ru/kinokomedia.png" group-title="Кино",КИНОКОМЕДИЯ
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinokomedia.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinosvidanie" tvg-name="КИНОСВИДАНИЕ" tvg-logo="http://www.ipstream.one/picons/ru/kinosvidanie.png" group-title="Кино",КИНОСВИДАНИЕ
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinosvidanie.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinopremiera-hd" tvg-name="КИНОПРЕМЬЕРА HD" tvg-logo="http://www.ipstream.one/picons/ru/kinopremiera.png" group-title="Кино",КИНОПРЕМЬЕРА HD
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinopremiera-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kinosemiya" tvg-name="КИНОСЕМЬЯ" tvg-logo="http://www.ipstream.one/picons/ru/kinosemia.png" group-title="Кино",КИНОСЕМЬЯ
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kinosemiya.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="muzhskoe-kino" tvg-name="Мужское кино" tvg-logo="http://www.ipstream.one/picons/ru/muzhskoe-kino.png" group-title="Кино",Мужское кино
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/muzhskoe-kino.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rodnoe-kino" tvg-name="РОДНОЕ КИНО" tvg-logo="http://www.ipstream.one/picons/ru/rodnoe-kino.png" group-title="Кино",РОДНОЕ КИНО
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rodnoe-kino.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nashe-novoe-kino" tvg-name="Наше новое кино" tvg-logo="http://www.ipstream.one/picons/ru/nashe-novoe-kino.png" group-title="Кино",Наше новое кино
+#EXTGRP:Кино
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nashe-novoe-kino.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="konny-mir" tvg-name="Конный мир HD" tvg-logo="http://www.ipstream.one/picons/ru/konniymir.png" group-title="Спорт",Конный мир HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/konny-mir.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="viasat-sport" tvg-name="Viasat Sport" tvg-logo="http://www.ipstream.one/picons/ru/viasatsport.ru.png" group-title="Спорт",Viasat Sport
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/viasat-sport.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="viasat-sport" tvg-name="Viasat Sport HD" tvg-logo="http://www.ipstream.one/picons/ru/viasatsport.ru.png" group-title="Спорт",Viasat Sport HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/viasat-sporthd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-boets" tvg-name="МАТЧ! Боец" tvg-logo="http://www.ipstream.one/picons/ru/match-boec.png" group-title="Спорт",МАТЧ! Боец
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-boets.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-nash-sport" tvg-name="МАТЧ! Страна" tvg-logo="http://www.ipstream.one/picons/ru/match-strana.png" group-title="Спорт",МАТЧ! Страна
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-nash-sport.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-tv" tvg-name="Матч ТВ" tvg-logo="http://www.ipstream.one/picons/ru/match.png" group-title="Спорт",Матч ТВ
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-tv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-tvhd" tvg-name="Матч! HD" tvg-logo="http://www.ipstream.one/picons/ru/match.png" group-title="Спорт",Матч! HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-tvhd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-arena" tvg-name="МАТЧ! Арена" tvg-logo="http://www.ipstream.one/picons/ru/match-arena.png" group-title="Спорт",МАТЧ! Арена
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-arena.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-arena" tvg-name="МАТЧ! Арена HD" tvg-logo="http://www.ipstream.one/picons/ru/match-arena.png" group-title="Спорт",МАТЧ! Арена HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-arenahd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-igra" tvg-name="МАТЧ! Игра" tvg-logo="http://www.ipstream.one/picons/ru/match-igra.png" group-title="Спорт",МАТЧ! Игра
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-igra.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-igra" tvg-name="МАТЧ! Игра HD" tvg-logo="http://www.ipstream.one/picons/ru/match-igra.png" group-title="Спорт",МАТЧ! Игра HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-igrahd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-planeta" tvg-name="МАТЧ! Планета" tvg-logo="http://www.ipstream.one/picons/ru/match-planeta.png" group-title="Спорт",МАТЧ! Планета
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-planeta.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-football1" tvg-name="МАТЧ! Футбол 1" tvg-logo="http://www.ipstream.one/picons/ru/match-football-1.png" group-title="Спорт",МАТЧ! Футбол 1
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-football1.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-football1" tvg-name="МАТЧ! Футбол 1 HD" tvg-logo="http://www.ipstream.one/picons/ru/match-football-1.png" group-title="Спорт",МАТЧ! Футбол 1 HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-football1hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-football2" tvg-name="МАТЧ! Футбол 2" tvg-logo="http://www.ipstream.one/picons/ru/match-football-2.png" group-title="Спорт",МАТЧ! Футбол 2
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-football2.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-football2" tvg-name="МАТЧ! Футбол 2 HD" tvg-logo="http://www.ipstream.one/picons/ru/match-football-2.png" group-title="Спорт",МАТЧ! Футбол 2 HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-football2hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-football3" tvg-name="МАТЧ! Футбол 3" tvg-logo="http://www.ipstream.one/picons/ru/match-football-3.png" group-title="Спорт",МАТЧ! Футбол 3
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-football3.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-football3" tvg-name="Матч! Футбол 3 HD" tvg-logo="http://www.ipstream.one/picons/ru/match-football-3.png" group-title="Спорт",Матч! Футбол 3 HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-football3hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-premier" tvg-name="МАТЧ ПРЕМЬЕР" tvg-logo="http://www.ipstream.one/picons/ru/match-premiere.png" group-title="Спорт",МАТЧ ПРЕМЬЕР
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-premier.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="match-premier" tvg-name="МАТЧ ПРЕМЬЕР HD" tvg-logo="http://www.ipstream.one/picons/ru/match-premiere.png" group-title="Спорт",МАТЧ ПРЕМЬЕР HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/match-premierhd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="box-tv" tvg-name="Бокс ТВ" tvg-logo="http://www.ipstream.one/picons/ru/box-tv.png" group-title="Спорт",Бокс ТВ
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/box-tv.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="" tvg-name="UFC ТВ" tvg-logo="http://www.ipstream.one/picons/ru/ufctv.png" group-title="Спорт",UFC ТВ
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ufc.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kxl" tvg-name="КХЛ" tvg-logo="http://www.ipstream.one/picons/ru/khl.png" group-title="Спорт",КХЛ
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kxl.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kxl-hd" tvg-name="КХЛ HD" tvg-logo="http://www.ipstream.one/picons/ru/khl.png" group-title="Спорт",КХЛ HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kxl-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="eurosport1-ru" tvg-name="Eurosport" tvg-logo="http://www.ipstream.one/picons/ru/eurosport1.ru.png" group-title="Спорт",Eurosport
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/eurosport1-ru.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="eurosport1" tvg-name="Eurosport 1 HD" tvg-logo="http://www.ipstream.one/picons/ru/eurosport1.ru.png" group-title="Спорт",Eurosport 1 HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/eurosport1hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="eurosport2-ru" tvg-name="Eurosport 2 HD" tvg-logo="http://www.ipstream.one/picons/ru/eurosport2.ru.png" group-title="Спорт",Eurosport 2 HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/eurosport2HD.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="eurosport-gold" tvg-name="Eurosport Gold HD" tvg-logo="http://www.ipstream.one/picons/ru/eurosportgold.png" group-title="Спорт",Eurosport Gold HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/eurosport-gold.ts
+#EXTINF:0 catchup="shift" catchup-days="1" timeshift="1" tvg-id="eurosport-4k" tvg-name="Eurosport 4K" tvg-logo="http://www.ipstream.one/picons/ru/eurosport_4k.png" group-title="Спорт",Eurosport 4K
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/eurosport-4k.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="extreme-sports" tvg-name="Extreme Sport" tvg-logo="http://www.ipstream.one/picons/ru/extremesports.ru.png" group-title="Спорт",Extreme Sport
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/extreme-sports.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="russky-ekstrim" tvg-name="Русский Экстрим" tvg-logo="http://www.ipstream.one/picons/ru/russky-ekstrim.png" group-title="Спорт",Русский Экстрим
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/russky-ekstrim.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tochka-otryva" tvg-name="Точка отрыва" tvg-logo="http://www.ipstream.one/picons/ru/tochka-otryva.png" group-title="Спорт",Точка отрыва
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tochka-otryva.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="setanta-sports-plus" tvg-name="Сетанта Спорт 2" tvg-logo="http://www.ipstream.one/picons/ru/setanta-sports-plus.png" group-title="Спорт",Сетанта Спорт 2
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/setanta-sports-plus.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="setanta-sports" tvg-name="Сетанта Спорт" tvg-logo="http://www.ipstream.one/picons/ru/setanta-sports.png" group-title="Спорт",Сетанта Спорт
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/setanta-sports.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="football-ru" tvg-name="Футбол HD" tvg-logo="http://www.ipstream.one/picons/ru/futbol.png" group-title="Спорт",Футбол HD
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/football-ru.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="m1global" tvg-name="M-1 Global TV" tvg-logo="http://www.ipstream.one/picons/ru/m-1globaltv.png" group-title="Спорт",M-1 Global TV
+#EXTGRP:Спорт
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/m1global.ts
+#EXTINF:0 catchup-days="0" tvg-id="mtv-russia" tvg-name="MTV" tvg-logo="http://www.ipstream.one/picons/ru/mtv.ru.png" group-title="Музыка",MTV
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mtv-russia.ts
+#EXTINF:0 catchup-days="0" tvg-id="mtv-live" tvg-name="MTV Live HD" tvg-logo="" group-title="Музыка",MTV Live HD
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mtv-live.ts
+#EXTINF:0 catchup-days="0" tvg-id="mtv-dance" tvg-name="MTV Dance" tvg-logo="http://www.ipstream.one/picons/ru/mtv_dance.png" group-title="Музыка",MTV Dance
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mtv-dance.ts
+#EXTINF:0 catchup-days="0" tvg-id="mtv-hits" tvg-name="MTV HITS" tvg-logo="http://www.ipstream.one/picons/ru/mtv_hits.png" group-title="Музыка",MTV HITS
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mtv-hits.ts
+#EXTINF:0 catchup-days="0" tvg-id="mtv-rocks" tvg-name="MTV Rocks" tvg-logo="http://www.ipstream.one/picons/ru/mtv_rocks.png" group-title="Музыка",MTV Rocks
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mtv-rocks.ts
+#EXTINF:0 catchup-days="0" tvg-id="muzyka-pervogo" tvg-name="Музыка первого" tvg-logo="http://www.ipstream.one/picons/ru/muzyka-pervogo.png" group-title="Музыка",Музыка первого
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/muzyka-pervogo.ts
+#EXTINF:0 catchup-days="0" tvg-id="europa-plus-tv" tvg-name="Europa Plus TV" tvg-logo="http://www.ipstream.one/picons/ru/europaplustv.png" group-title="Музыка",Europa Plus TV
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/europa-plus-tv.ts
+#EXTINF:0 catchup-days="0" tvg-id="nashe-tv" tvg-name="Наше ТВ" tvg-logo="http://www.ipstream.one/picons/ru/nashetv.png" group-title="Музыка",Наше ТВ
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nashe-tv.ts
+#EXTINF:0 catchup-days="0" tvg-id="muztv" tvg-name="МУЗ" tvg-logo="http://www.ipstream.one/picons/ru/muztv.png" group-title="Музыка",МУЗ
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/muztv.ts
+#EXTINF:0 catchup-days="0" tvg-id="ru-tv" tvg-name="RU.TV" tvg-logo="http://www.ipstream.one/picons/ru/rutv.png" group-title="Музыка",RU.TV
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/ru-tv.ts
+#EXTINF:0 catchup-days="0" tvg-id="bridge-tv" tvg-name="Bridge TV" tvg-logo="http://www.ipstream.one/picons/ru/bridge-tv.png" group-title="Музыка",Bridge TV
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/bridge-tv.ts
+#EXTINF:0 catchup-days="0" tvg-id="bridge-tv-dance" tvg-name="Bridge TV Dance" tvg-logo="http://www.ipstream.one/picons/ru/bridgetvdance.png" group-title="Музыка",Bridge TV Dance
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/bridge-tv-dance.ts
+#EXTINF:0 catchup-days="0" tvg-id="bridge-hd" tvg-name="BRIDGE HD" tvg-logo="http://www.ipstream.one/picons/ru/bridgehd.png" group-title="Музыка",BRIDGE HD
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/bridge-hd.ts
+#EXTINF:0 catchup-days="0" tvg-id="tnt-music" tvg-name="ТНТ MUSIC" tvg-logo="http://www.ipstream.one/picons/ru/tnt-music.png" group-title="Музыка",ТНТ MUSIC
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tnt-music.ts
+#EXTINF:0 catchup-days="0" tvg-id="bridge-tv-ruxit" tvg-name="BRIDGE TV Русский Хит" tvg-logo="http://www.ipstream.one/picons/ru/bridgetvrusxit.png" group-title="Музыка",BRIDGE TV Русский Хит
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/bridge-tv-ruxit.ts
+#EXTINF:0 catchup-days="0" tvg-id="zhara" tvg-name="Жара" tvg-logo="http://www.ipstream.one/picons/ru/zara.png" group-title="Музыка",Жара
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/zhara.ts
+#EXTINF:0 catchup-days="0" tvg-id="bridge-tv-classic" tvg-name="BRIDGE TV Classic" tvg-logo="http://www.ipstream.one/picons/ru/bridgetvclassic.png" group-title="Музыка",BRIDGE TV Classic
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/bridge-tv-classic.ts
+#EXTINF:0 catchup-days="0" tvg-id="vh1-classic" tvg-name="VH-1 Classic" tvg-logo="http://www.ipstream.one/picons/ru/vh1-classic.png" group-title="Музыка",VH-1 Classic
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/vh1-classic.ts
+#EXTINF:0 catchup-days="0" tvg-id="iconcerts" tvg-name="iConcerts HD" tvg-logo="http://www.ipstream.one/picons/ru/iconcerts.png" group-title="Музыка",iConcerts HD
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/iconcerts.ts
+#EXTINF:0 catchup-days="0" tvg-id="mcm-top" tvg-name="MCM Top" tvg-logo="http://www.ipstream.one/picons/ru/mcm-top.png" group-title="Музыка",MCM Top
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mcm-top.ts
+#EXTINF:0 catchup-days="0" tvg-id="la-minor" tvg-name="Ля-минор" tvg-logo="http://www.ipstream.one/picons/ru/laminor.png" group-title="Музыка",Ля-минор
+#EXTGRP:Музыка
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/la-minor.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="cartoon-network" tvg-name="Cartoon Network" tvg-logo="http://www.ipstream.one/picons/ru/cartoonnetwork.ru.png" group-title="Детские",Cartoon Network
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/cartoon-network.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="disney" tvg-name="Disney" tvg-logo="http://www.ipstream.one/picons/ru/disney_channel.png" group-title="Детские",Disney
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/disney.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="mult" tvg-name="Мульт" tvg-logo="http://www.ipstream.one/picons/ru/mult.png" group-title="Детские",Мульт
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mult.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="kapitan-fantastika " tvg-name="Kapitan Fantastika HD" tvg-logo="http://www.ipstream.one/picons/ru/kapitan_fantastika.png" group-title="Детские",Kapitan Fantastika HD
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/kapitan-fantastika.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="gulli-girl" tvg-name="Gulli Girls" tvg-logo="http://www.ipstream.one/picons/ru/gulligirl.png" group-title="Детские",Gulli Girls
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/gulli-girl.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="2na2" tvg-name="2x2" tvg-logo="http://www.ipstream.one/picons/ru/2x2.png" group-title="Детские",2x2
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/2na2.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="boomerang" tvg-name="Boomerang" tvg-logo="http://www.ipstream.one/picons/ru/boomerang.ru.png" group-title="Детские",Boomerang
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/boomerang.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="karusel" tvg-name="Карусель" tvg-logo="http://www.ipstream.one/picons/ru/karusel.png" group-title="Детские",Карусель
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/karusel.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="detsky-mir" tvg-name="Детский мир" tvg-logo="http://www.ipstream.one/picons/ru/detmir.png" group-title="Детские",Детский мир
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/detsky-mir.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nick-jr" tvg-name="Nick Jr." tvg-logo="http://www.ipstream.one/picons/ru/nick-jr.png" group-title="Детские",Nick Jr.
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nick-jr.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="o_" tvg-name="O!" tvg-logo="http://www.ipstream.one/picons/ru/o!.png" group-title="Детские",O!
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/o_.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="jimjam" tvg-name="Jim Jam" tvg-logo="http://www.ipstream.one/picons/ru/jimjam.ru.png" group-title="Детские",Jim Jam
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/jimjam.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nickelodeon-ru" tvg-name="Nickelodeon" tvg-logo="http://www.ipstream.one/picons/ru/nickelodeon.png" group-title="Детские",Nickelodeon
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nickelodeon-ru.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="nickelodeon-hd" tvg-name="Nickelodeon HD" tvg-logo="http://www.ipstream.one/picons/ru/nickelodeon.png" group-title="Детские",Nickelodeon HD
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/nickelodeon-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tiji" tvg-name="Tiji TV" tvg-logo="http://www.ipstream.one/picons/ru/tiji.png" group-title="Детские",Tiji TV
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tiji.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="tlum-hd" tvg-name="Тлум HD" tvg-logo="http://www.ipstream.one/picons/ru/tlumhd.png" group-title="Детские",Тлум HD
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/tlum-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="sts-kids-hd" tvg-name="СТС Kids HD" tvg-logo="http://www.ipstream.one/picons/ru/stskids.png" group-title="Детские",СТС Kids HD
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/sts-kids-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="multik-hd" tvg-name="Мультик HD" tvg-logo="http://www.ipstream.one/picons/ru/multik-hd.png" group-title="Детские",Мультик HD
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/multik-hd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="multimuzyka" tvg-name="Мультимузыка" tvg-logo="http://www.ipstream.one/picons/ru/multimuzyka.png" group-title="Детские",Мультимузыка
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/multimuzyka.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="detsky" tvg-name="Детский" tvg-logo="http://www.ipstream.one/picons/ru/detskiy.png" group-title="Детские",Детский
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/detsky.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="mama" tvg-name="Мама" tvg-logo="http://www.ipstream.one/picons/ru/mama.png" group-title="Детские",Мама
+#EXTGRP:Детские
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/mama.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rtvi" tvg-name="RTVi" tvg-logo="http://www.ipstream.one/picons/ru/rtvi.png" group-title="Новости",RTVi
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rtvi.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="dozd" tvg-name="Дождь" tvg-logo="http://www.ipstream.one/picons/ru/dozhd.png" group-title="Новости",Дождь
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/dozd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="dozdhd" tvg-name="Дождь HD" tvg-logo="http://www.ipstream.one/picons/ru/dozhd.png" group-title="Новости",Дождь HD
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/dozhd.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="moskva-24" tvg-name="Москва 24" tvg-logo="http://www.ipstream.one/picons/ru/moskva24.png" group-title="Новости",Москва 24
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/moskva-24.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rbk" tvg-name="РБК" tvg-logo="http://www.ipstream.one/picons/ru/rbk.png" group-title="Новости",РБК
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rbk.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="360-podmoskovie" tvg-name="360° Подмосковье" tvg-logo="http://www.ipstream.one/picons/ru/360-podmoskovie.png" group-title="Новости",360° Подмосковье
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/360-podmoskovie.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="euronews" tvg-name="Euronews" tvg-logo="http://www.ipstream.one/picons/ru/euronews.ru.png" group-title="Новости",Euronews
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/euronews.ts
+#EXTINF:0 catchup="shift" catchup-days="2" timeshift="2" tvg-id="rossia-24" tvg-name="Россия-24" tvg-logo="http://www.ipstream.one/picons/ru/rossia24.png" group-title="Новости",Россия-24
+#EXTGRP:Новости
+https://ott-n.ipstream.one:443/live/u.12657.f89b926f9a9c5525f0ed40c53b6d07472b/rossia-24.ts

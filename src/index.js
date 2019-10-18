@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import 'overlayscrollbars/css/OverlayScrollbars.css';
 import './assets/css/main.css'
 import './assets/css/anumation.css';
 import './assets/css/custom.css';

@@ -4,12 +4,16 @@
   "private": true,
   "homepage": "https://zikwall.github.io/vk-tv-desktop",
   "dependencies": {
+    "@vkontakte/icons": "^1.10.2",
+    "@vkontakte/vk-connect": "^1.6.5",
+    "@vkontakte/vkui": "^2.31.2",
     "gh-pages": "^2.1.1",
+    "overlayscrollbars": "^1.10.0",
+    "overlayscrollbars-react": "^0.2.0",
     "react": "^16.10.2",
     "react-animations": "^1.0.0",
     "react-dom": "^16.10.2",
     "react-jw-player": "^1.19.0",
-    "react-overlayscrollbars": "^0.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },

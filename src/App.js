@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Footer } from "@vkontakte/vkui";
+import '@vkontakte/vkui/dist/vkui.css';
 import { Main } from './pages/main';
 import { Header } from "./components/header";
 import { SVG } from "./components/svg";
@@ -18,6 +20,8 @@ const App = () =>  {
                     </BrowserRouter>
                 </div>
             </main>
+
+            <Footer>{(new Date).getFullYear()} status:@dev</Footer>
 
             <SVG />
         </>
