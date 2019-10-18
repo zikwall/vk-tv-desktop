@@ -12,10 +12,6 @@ class Teleprogram extends React.Component {
         return [...Array(15)].map(() => {
             return (
                 <li className="item">
-                    <div className="item-number">
-                        <span className="hover-hide">01</span>
-                    </div>
-
                     <div className="item-title">Вечерние новости (с субтитрами)</div>
                     <div className="item-genre">
                         <span className="hover-hide hover-lg-show">Classical</span>
@@ -58,7 +54,7 @@ class Teleprogram extends React.Component {
                 <Switch>
                     <Case sheetIndex="teleprogram" sheetName="Teleprograms">
                         <OverlayScrollbarsComponent>
-                            <div style={{maxHeight: '350px'}}>
+                            <div style={{maxHeight: '325px'}}>
                                 <ul className="adonis-album-list pb-5 pt-e-30">
                                     { this.renderItems() }
                                 </ul>
