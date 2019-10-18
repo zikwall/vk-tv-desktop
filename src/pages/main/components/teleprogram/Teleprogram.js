@@ -13,10 +13,6 @@ class Teleprogram extends React.Component {
             return (
                 <li className="item">
                     <div className="item-title">Вечерние новости (с субтитрами)</div>
-                    <div className="item-genre">
-                        <span className="hover-hide hover-lg-show">Classical</span>
-                    </div>
-
                     <div className="item-duration">
                         <span className="hover-hide">14:13</span>
                     </div>
@@ -54,7 +50,7 @@ class Teleprogram extends React.Component {
                 <Switch>
                     <Case sheetIndex="teleprogram" sheetName="Teleprograms">
                         <OverlayScrollbarsComponent>
-                            <div style={{maxHeight: '320px'}}>
+                            <div style={{maxHeight: '300px'}}>
                                 <ul className="adonis-album-list pb-5 pt-e-30">
                                     { this.renderItems() }
                                 </ul>
