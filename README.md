@@ -12,4 +12,4 @@
 
 #### with Sidebar
 
-![Main with menu image](./screenshots/screen2.png "Main Image")
+![Main with menu image](./screenshots/screen2.png "Main with menu image")
