@@ -54,7 +54,7 @@ class Teleprogram extends React.Component {
                 <Switch>
                     <Case sheetIndex="teleprogram" sheetName="Teleprograms">
                         <OverlayScrollbarsComponent>
-                            <div style={{maxHeight: '325px'}}>
+                            <div style={{maxHeight: '320px'}}>
                                 <ul className="adonis-album-list pb-5 pt-e-30">
                                     { this.renderItems() }
                                 </ul>
