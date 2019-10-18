@@ -58,21 +58,8 @@ class Teleprogram extends React.Component {
                 <Switch>
                     <Case sheetIndex="teleprogram" sheetName="Teleprograms">
                         <OverlayScrollbarsComponent>
-                            <div style={{maxHeight: '300px'}}>
+                            <div style={{maxHeight: '350px'}}>
                                 <ul className="adonis-album-list pb-5 pt-e-30">
-                                    <li>
-                                        <div className="item-number h6 inactive-color">#</div>
-                                        <div className="item-title h6 inactive-color">Name</div>
-                                        <div className="item-genre h6 inactive-color">Genre</div>
-                                        <div className="item-duration h6 inactive-color">Time</div>
-                                        <div className="item-tools">
-                                        <span className="adonis-icon h6 inactive-color icon-1x">
-                                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                                                <use xlinkHref="#icon-heart-blank"></use></svg>
-                                        </span>
-                                        </div>
-                                    </li>
-
                                     { this.renderItems() }
                                 </ul>
                             </div>
