@@ -80,7 +80,7 @@ class Switch extends React.Component {
     render () {
         return (
             <>
-                <Group title="Вкладки-кнопки">
+                <Group>
                     <Tabs type="buttons">
                         { this.renderButtons() }
                     </Tabs>

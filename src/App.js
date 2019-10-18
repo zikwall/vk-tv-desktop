@@ -21,8 +21,6 @@ const App = () =>  {
                 </div>
             </main>
 
-            <Footer>{(new Date).getFullYear()} status:@dev</Footer>
-
             <SVG />
         </>
     );
