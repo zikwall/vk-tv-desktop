@@ -9,9 +9,9 @@ class Teleprogram extends React.Component {
     };
 
     renderItems = () => {
-        return [...Array(15)].map(() => {
+        return [...Array(15)].map((v, i) => {
             return (
-                <li className="item">
+                <li key={i} className="item">
                     <div className="item-title">Вечерние новости (с субтитрами)</div>
                     <div className="item-duration">
                         <span className="hover-hide">14:13</span>
