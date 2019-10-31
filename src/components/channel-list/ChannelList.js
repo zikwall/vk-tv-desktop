@@ -1,21 +1,24 @@
 import React from 'react';
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 import { ChannelPlaceholders } from "./ChannelPlaceholder";
-import { getChannels } from "../../services/channels";
+
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import fetchChannelsAction from './fetchChannels';
+import { getChannelsError, getChannels, getChannelsPending } from '../../redux/reducers';
 
 class ChannelList extends React.Component {
 
-    state = {
-        channels: null
-    };
-
-    async componentDidMount() {
-        let channels = await getChannels();
-        this.setState({channels: channels})
+    componentDidMount() {
+        let ch = this.props.fetchChannels();
+        console.log(ch);
     }
 
-    renderChannels = () => {
-        return this.state.channels.map((channel, index) => {
+    renderChannels = (channels) => {
+        console.log(channels);
+        return (<></>);
+
+        return channels.map((channel, index) => {
             return (
                 <React.Fragment key={index}>
                     <div className="img-box-horizontal music-img-box h-g-bg h-d-shadow">
@@ -48,8 +51,9 @@ class ChannelList extends React.Component {
     };
 
     render() {
+        const { channels, pending } = this.props;
 
-        if (this.state.channels == null) {
+        if (pending) {
             return <ChannelPlaceholders count={5} />
         }
 
@@ -60,7 +64,7 @@ class ChannelList extends React.Component {
                         <div className="item" id="sticky-sidebar">
                             <div className="inner-wrapper-sticky" style={{position: 'relative'}}>
                                 {
-                                    this.renderChannels()
+                                    this.renderChannels(channels)
                                 }
                             </div>
                         </div>
@@ -71,4 +75,14 @@ class ChannelList extends React.Component {
     }
 }
 
-export default ChannelList;
+const mapStateToProps = state => ({
+    error: getChannelsError(state),
+    channels: getChannels(state),
+    pending: getChannelsPending(state)
+});
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+    fetchChannels: fetchChannelsAction
+}, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(ChannelList );
