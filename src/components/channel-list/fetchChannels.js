@@ -1,18 +1,18 @@
-import { fetchChannelsPending, fetchChannelsError, fetchChannelsSuccess } from '../../redux/actions';
+import { fetchChannelsPending, fetchChannelsError, fetchChannelsSuccess, setChannel } from '../../redux/actions';
 import { apiFetch } from "../../services/api";
 
 const fetchChannels = () => {
     return dispatch => {
         dispatch(fetchChannelsPending());
 
-        fetch('http://tv.zikwall.ru/vktv/api/channels')
-            .then(res => res.json())
+        apiFetch('/vktv/api/channels')
             .then(res => {
                 if(res.error) {
                     throw(res.error);
                 }
 
                 dispatch(fetchChannelsSuccess(res));
+                dispatch(setChannel(res[1]));
 
                 return res;
             })

@@ -1,5 +1,5 @@
-import { fetchChannelsError, fetchChannelsPending, fetchChannelsSuccess } from './channels';
+import { fetchChannelsError, fetchChannelsPending, fetchChannelsSuccess, setChannel } from './channels';
 
 export {
-    fetchChannelsPending, fetchChannelsSuccess, fetchChannelsError
+    fetchChannelsPending, fetchChannelsSuccess, fetchChannelsError, setChannel
 }

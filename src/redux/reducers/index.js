@@ -1,11 +1,12 @@
 import { combineReducers } from 'redux'
+import channelsFetchReducer, {
+    channelActionReducer, getChannels, getChannelsError, getChannelsPending, getSelectChannel
+} from "./channels";
 
-import { getChannels, getChannelsError, getChannelsPending, channelsReducer } from "./channels";
+const rootReducer = combineReducers({channelsFetchReducer, channelActionReducer});
 
-export default combineReducers({
-    channelsReducer
-})
+export default rootReducer;
 
 export {
-    getChannelsPending, getChannelsError, getChannels
+    getChannelsPending, getChannelsError, getChannels, getSelectChannel
 }

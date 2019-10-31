@@ -1,5 +1,5 @@
 import {
-    FETCH_CHANNELS_ERROR, FETCH_CHANNELS_SUCCESS, FETCH_CHANNELS_PENDING
+    FETCH_CHANNELS_ERROR, FETCH_CHANNELS_SUCCESS, FETCH_CHANNELS_PENDING, ACTION_CHANNELS_SET
 } from '../types';
 
 const initialState = {
@@ -8,7 +8,7 @@ const initialState = {
     error: null
 };
 
-export function channelsReducer(state = initialState, action) {
+const channelsFetchReducer = (state = initialState, action) => {
     switch(action.type) {
         case FETCH_CHANNELS_PENDING:
             
@@ -21,7 +21,7 @@ export function channelsReducer(state = initialState, action) {
             return {
                 ...state,
                 pending: false,
-                channels: action.properties
+                channels: action.channels
             };
             
         case FETCH_CHANNELS_ERROR:
@@ -35,8 +35,32 @@ export function channelsReducer(state = initialState, action) {
         default:
             return state;
     }
-}
+};
 
-export const getChannels = state => state.channels;
-export const getChannelsPending = state => state.pending;
-export const getChannelsError = state => state.error;
+const actionInitialState = {
+    channel: {
+        epg_id: 0,
+        name: '',
+        url: ''
+    },
+};
+
+export const channelActionReducer = (state = actionInitialState, action) => {
+    switch(action.type) {
+        case ACTION_CHANNELS_SET:
+
+            return {
+                ...state,
+                channel: action.channel
+            };
+        default:
+            return state;
+    }
+};
+
+export default channelsFetchReducer;
+
+export const getChannels = state => state.channelsFetchReducer.channels;
+export const getChannelsPending = state => state.channelsFetchReducer.pending;
+export const getChannelsError = state => state.channelsFetchReducer.error;
+export const getSelectChannel = state => state.channelActionReducer.channel;
