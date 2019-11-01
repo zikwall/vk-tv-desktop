@@ -1,1 +1,1 @@
-export { default as Teleprogram } from './Teleprogram';
+export { default as TVprogram } from './TVprogram';

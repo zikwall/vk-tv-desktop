@@ -1,6 +1,6 @@
 import React from 'react';
 import { Player } from "../../components/player";
-import { Teleprogram } from "./components/teleprogram";
+import { TVprogram } from "./components/teleprogram";
 import { Description } from "./components/description";
 
 class Main extends React.Component {
@@ -31,7 +31,7 @@ class Main extends React.Component {
                             </div>
                         </div>
 
-                        <Teleprogram />
+                        <TVprogram />
                     </div>
                     <div className="col-md-5">
                         <Description />

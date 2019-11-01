@@ -1,16 +1,20 @@
 import React from 'react';
-import { Div } from "@vkontakte/vkui";
+import { Placeholder, Button } from "@vkontakte/vkui";
+import Icon56VideoOutline from '@vkontakte/icons/dist/56/video_outline';
+
 import './index.css';
+import Heart from "../icons/Heart";
 
 const Underdeveloipment = () => {
     return (
         <div style={{height: '300px'}}>
-            <div className="bt_guest_invitation">
-                <div className="title">Underdevelopment</div>
-                <div className="subtitle">
-                    Мы уже работаем над улучшением продукта. Пожалуйста, наберитесь терпения и пожелайте нам удачи!
-                </div>
-            </div>
+            <Placeholder
+                icon={<Icon56VideoOutline />}
+                title="Раздел находится в разработке"
+                action={<Button size="l">Жду с нетерпением!</Button>}
+            >
+                Скоро здесь появится что-то интересное. Загляните немного позже! Спасибо { <Heart /> }
+            </Placeholder>
         </div>
     )
 };

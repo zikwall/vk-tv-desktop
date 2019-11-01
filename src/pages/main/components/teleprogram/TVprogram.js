@@ -2,8 +2,9 @@ import React from 'react';
 import { Switch, Case } from "../../../../containers/switch";
 import { Underdevelopment } from "../../../../components/underdevelopment";
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
+import {Heart, HorizontalMore} from "../../../../components/icons";
 
-class Teleprogram extends React.Component {
+class TVprogram extends React.Component {
     state = {
         activeTab2: 'all',
     };
@@ -20,22 +21,14 @@ class Teleprogram extends React.Component {
                     <div className="item-tools">
                         <span className="hover-hide">1245</span>
                         <div className="hover-show d-flex flex-nowrap hover-tools">
-                            <span className="adonis-icon icon-1x">
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                                    <use xlinkHref="#icon-heart-blank"></use>
-                                </svg>
-                            </span>
+                            <Heart />
                             <span className="ml-3 adonis-icon icon-3x">
                                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
                                     <use xlinkHref="#icon-plus"></use>
                                 </svg>
                             </span>
                             <span className="ml-3 adonis-icon pointer dropdown-menu-toggle">
-                                <span className="adonis-icon icon-4x">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                                        <use xlinkHref="#icon-horizontal-dots"></use>
-                                    </svg>
-                                </span>
+                                <HorizontalMore />
                             </span>
                         </div>
                     </div>
@@ -66,4 +59,4 @@ class Teleprogram extends React.Component {
     }
 }
 
-export default Teleprogram;
+export default TVprogram;
