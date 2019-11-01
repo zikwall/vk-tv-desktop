@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactJWPlayer from 'react-jw-player';
-import {getChannels, getChannelsPending, getSelectChannel} from "../../redux/reducers";
+import { getChannels, getChannelsPending, getSelectChannel } from "../../redux/reducers";
+import { ScreenSpinner } from "@vkontakte/vkui";
 import { connect } from "react-redux";
 import './index.css';
 
@@ -9,11 +10,11 @@ class Player extends React.Component {
         let { channel, pending } = this.props;
 
         if (pending === true) {
-            return <>zzzz</>;
+            return <ScreenSpinner />;
         }
 
         if (!channel.url) {
-            return <>sss</>
+            return <ScreenSpinner />
         }
 
         const playlist = [{
