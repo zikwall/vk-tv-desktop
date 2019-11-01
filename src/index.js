@@ -8,4 +8,25 @@ import './assets/css/custom.css';
 
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+import reducer from './redux/reducers';
+import { createLogger } from 'redux-logger';
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunkMiddleware from 'redux-thunk'
+
+const loggerMiddleware = createLogger();
+const store = createStore(
+    reducer,
+    applyMiddleware(
+        thunkMiddleware,
+        loggerMiddleware
+    )
+);
+
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('root')
+);

@@ -8,7 +8,7 @@ import { SVG } from "./components/svg";
 
 const App = () =>  {
     return (
-        <>
+       <>
            <Header />
            <main className="app">
                 <div className="master-container-fluid">

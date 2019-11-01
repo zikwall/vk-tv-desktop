@@ -2,12 +2,21 @@ import React from 'react';
 import { Aside } from "../../containers/aside";
 import styled, { keyframes } from 'styled-components';
 import { rubberBand } from 'react-animations';
+import { getChannelsPending, getSelectChannel } from "../../redux/reducers";
+import { connect } from "react-redux";
 
-const Header = () => {
+const Header = (props) => {
     const rubberBandAnimation = keyframes`${rubberBand}`;
     const RubberBandDiv = styled.div`
         animation: 1s ${rubberBandAnimation};
     `;
+
+    let { channel, pending } = props;
+    let channelName = 'Loading...';
+
+    if (pending === false) {
+        channelName = channel.name;
+    }
 
     return (
         <header id="site-header" className="site-header mb-1">
@@ -22,7 +31,7 @@ const Header = () => {
                                     <span className="adonis-icon mr-md-2 color-dark mr-1 icon-5x">
                                         <img style={{width: '26px'}} src="https://cdn.limehd.tv/images/playlist_1channel.png" />
                                     </span>
-                                    <strong className="p-1 fs-6 fs-lg-8">Росиия 24</strong>
+                                    <strong className="p-1 fs-6 fs-lg-8">{ channelName }</strong>
                                 </a>
                             </div>
                         </RubberBandDiv>
@@ -38,4 +47,9 @@ const Header = () => {
     );
 };
 
-export default Header;
+const mapStateToProps = state => ({
+    pending: getChannelsPending(state),
+    channel: getSelectChannel(state),
+});
+
+export default connect(mapStateToProps)(Header);
