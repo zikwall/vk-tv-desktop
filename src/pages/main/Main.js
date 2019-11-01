@@ -1,6 +1,6 @@
 import React from 'react';
 import { Player } from "../../components/player";
-import { TVprogram } from "./components/teleprogram";
+import { TVprogram } from "./components/tvprogram";
 import { Description } from "./components/description";
 
 class Main extends React.Component {
