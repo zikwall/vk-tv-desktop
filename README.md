@@ -6,10 +6,4 @@
 
 ### Screenshots
 
-#### Main Page
-
-![Main image](./screenshots/screen1.png "Main Image")
-
-#### with Sidebar
-
-![Main with menu image](./screenshots/screen2.png "Main with menu image")
+![Main image](./screenshots/screen3.png "Main Image")
