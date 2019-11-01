@@ -2,6 +2,7 @@ import React from 'react';
 import ReactJWPlayer from 'react-jw-player';
 import {getChannels, getChannelsPending, getSelectChannel} from "../../redux/reducers";
 import { connect } from "react-redux";
+import './index.css';
 
 class Player extends React.Component {
     render() {
@@ -23,7 +24,7 @@ class Player extends React.Component {
         }];
 
         return (
-            <div className="player-responsive" style={{width: '100%'}}>
+            <div className="video-container player-responsive" style={{width: '100%'}}>
                 <ReactJWPlayer
                     playerId='my-unique-id'
                     playerScript='https://cdn.jwplayer.com/libraries/HLcL3DNo.js'
