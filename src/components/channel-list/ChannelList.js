@@ -72,7 +72,7 @@ const ChannelList = (props) => {
     return (
         <>
             <div style={{marginBottom: '5px'}}>
-                <Search value={ search } onChange={ onSearch } theme="white" asideContent="" />
+                <Search value={ search } onChange={ onSearch } theme="default" />
             </div>
 
             <OverlayScrollbarsComponent>

@@ -5,10 +5,11 @@ import '@vkontakte/vkui/dist/vkui.css';
 import { Main } from './pages/main';
 import { Header } from "./components/header";
 import { SVG } from "./components/svg";
+import { SnackbarProvider } from 'notistack';
 
 const App = () =>  {
     return (
-       <>
+        <SnackbarProvider maxSnack={3} autoHideDuration={2000}>
            <Header />
            <main className="app">
                 <div className="master-container-fluid">
@@ -22,7 +23,7 @@ const App = () =>  {
             </main>
 
             <SVG />
-        </>
+        </SnackbarProvider>
     );
 };
 

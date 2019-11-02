@@ -80,11 +80,9 @@ class Switch extends React.Component {
     render () {
         return (
             <>
-                <Group>
-                    <Tabs type="buttons">
-                        { this.renderButtons() }
-                    </Tabs>
-                </Group>
+                <Tabs type="buttons">
+                    { this.renderButtons() }
+                </Tabs>
 
                 { this.renderSheet() }
             </>
