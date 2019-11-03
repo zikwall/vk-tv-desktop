@@ -23,7 +23,7 @@ const TVprogram = (props) => {
                 <Cell key={i}
                     description="14:13"
                     asideContent={
-                        <a href="#" style={{marginRight: '40px'}} onClick={handleMoreClick}>
+                        <a href="#" style={{marginRight: '40px'}} onClick={ handleMoreClick }>
                             <Icon24MoreHorizontal />
                         </a>
                     }>
