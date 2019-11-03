@@ -6,7 +6,7 @@ import {
     Exception
 } from "../../exceptions";
 
-const API_URL = 'http://tv.zikwall.ru';
+const API_URL = 'https://tv.zikwall.ru';
 
 export const apiFetch = (url, options, useAuth = true) => {
 
