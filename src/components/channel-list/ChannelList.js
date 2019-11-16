@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
+import React, { useEffect } from 'react';
 import { ChannelPlaceholders } from "./ChannelPlaceholder";
 
-import {Group, Cell, List, Avatar, Progress, Search, Div} from "@vkontakte/vkui";
+import { Group, Cell, List, Avatar, Progress } from "@vkontakte/vkui";
 import Icon24MoreHorizontal from '@vkontakte/icons/dist/24/more_horizontal';
 
 import { connect } from 'react-redux';
@@ -10,30 +9,33 @@ import { bindActionCreators } from 'redux';
 import fetchChannelsAction from './fetchChannels';
 import { getChannelsError, getChannels, getChannelsPending } from '../../redux/reducers';
 import { setChannel } from "../../redux/actions/channels";
+import { useSnackbar } from "notistack";
 
 const ChannelList = (props) => {
-    const [search, setSearch] = useState("");
-    const [stateChannels, setStateChannels] = useState([]);
 
-    useEffect( async () => {
-        await props.fetchChannels();
-        setStateChannels(props.channels);
+    useEffect(  () => {
+        props.fetchChannels();
     }, []);
 
-    const handleChannelClick = (e) => {
+    const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+
+    const handleMoreClick = (e) => {
         e.preventDefault();
-        let epg_id = e.currentTarget.dataset.epgid;
+        enqueueSnackbar('Хо-хо, вы нажали на точечки? Походу да!', {
+            variant: 'success',
+        });
+    };
+
+    const selectChannelOnClick = (e) => {
+        e.preventDefault();
+        //let epg_id = e.currentTarget.dataset.epgid;
         let channel_id = e.currentTarget.dataset.channelid;
 
         props.selectChannel(props.channels[channel_id])
     };
 
-    const onSearch = (search) => {
-        setSearch(search);
-    };
-
-    const allChannels = (channels) => {
-        const ss = search.toLowerCase();
+    const filterChannels = (channels) => {
+        const ss = props.search.toLowerCase();
         return channels.filter(({name}) => name.toLowerCase().indexOf(ss) > -1);
     };
 
@@ -45,7 +47,7 @@ const ChannelList = (props) => {
                       before={<Avatar type="app" src="https://pp.userapi.com/c841025/v841025503/617f7/bkN1Def0s14.jpg" />}
                       description="08:00 - 09:59"
                       asideContent={
-                          <a href="#">
+                          <a href="#" onClick={ handleMoreClick }>
                               <Icon24MoreHorizontal fill="var(--accent)"/>
                           </a>
                       }
@@ -54,9 +56,9 @@ const ChannelList = (props) => {
                     <a href="#"
                        data-channelid={ index }
                        data-epgid={ channel.epg_id }
-                       onClick={ handleChannelClick }> { channel.name }
+                       onClick={ selectChannelOnClick }> { channel.name }
                     </a>
-                    <Progress value={randomInteger(0, 100)} />
+                    <Progress value={ randomInteger(0, 100) } />
                 </Cell>
             )
         });
@@ -70,27 +72,19 @@ const ChannelList = (props) => {
     }
 
     return (
-        <>
-            <div style={{marginBottom: '5px'}}>
-                <Search value={ search } onChange={ onSearch } theme="default" />
-            </div>
-
-            <OverlayScrollbarsComponent>
-                <div style={{width: '300px', maxHeight: '530px'}}>
-                    <div id="sticky-sidebar">
-                        <div className="inner-wrapper-sticky" style={{position: 'relative'}}>
-                            <Group>
-                                <List>
-                                    {
-                                        renderChannels(allChannels(channels))
-                                    }
-                                </List>
-                            </Group>
-                        </div>
-                    </div>
+        <div style={{width: '300px', maxHeight: '530px'}}>
+            <div id="sticky-sidebar">
+                <div className="inner-wrapper-sticky" style={{position: 'relative'}}>
+                    <Group>
+                        <List>
+                            {
+                                renderChannels(filterChannels(channels))
+                            }
+                        </List>
+                    </Group>
                 </div>
-            </OverlayScrollbarsComponent>
-        </>
+            </div>
+        </div>
     );
 };
 

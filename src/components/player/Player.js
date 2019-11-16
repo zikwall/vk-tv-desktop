@@ -36,8 +36,6 @@ const Player = (props) => {
                 isAutoPlay={true}
 
                 onError={(e) => {
-                    console.log(e);
-
                     props.snack = enqueueSnackbar('Не удалось загрузить канал :(', {
                         variant: 'error',
                         persist: true,

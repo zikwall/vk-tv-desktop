@@ -12,7 +12,7 @@ const fetchChannels = () => {
                 }
 
                 dispatch(fetchChannelsSuccess(res));
-                dispatch(setChannel(res[1]));
+                dispatch(setChannel(res[6]));
 
                 return res;
             })
