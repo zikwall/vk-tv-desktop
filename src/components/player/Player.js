@@ -34,7 +34,6 @@ const Player = (props) => {
                 playerScript='https://cdn.jwplayer.com/libraries/HLcL3DNo.js'
                 playlist={playlist}
                 isAutoPlay={true}
-
                 onError={(e) => {
                     props.snack = enqueueSnackbar('Не удалось загрузить канал :(', {
                         variant: 'error',
