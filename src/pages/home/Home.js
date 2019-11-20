@@ -1,5 +1,5 @@
 import React from 'react';
-import Slick, { SlickMultiple, Slick2, Slick3 } from "./components/Slick";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
 
@@ -7,7 +7,7 @@ class Home extends React.Component {
     render() {
         return (
             <>
-                Home Page
+                Home Page <Link to="/online">Go To Watch</Link>
             </>
         );
     }
