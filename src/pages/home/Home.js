@@ -1,5 +1,6 @@
 import React from 'react';
 import { Group, Gallery } from "@vkontakte/vkui";
+import Slick, { SlickMultiple, Slick2 } from "./components/Slick";
 
 class Home extends React.Component {
 
@@ -7,17 +8,11 @@ class Home extends React.Component {
     render() {
         return (
             <>
-                <Group title="Sticks right">
-                    <Gallery
-                        slideWidth="90%"
-                        style={{ height: 150 }}
-                        bullets="dark"
-                    >
-                        <div style={{ backgroundColor: 'var(--destructive)' }} />
-                        <div style={{ backgroundColor: 'var(--button_commerce_background)' }} />
-                        <div style={{ backgroundColor: 'var(--accent)' }} />
-                    </Gallery>
-                </Group>
+                <Slick />
+                <br /><br />
+                <SlickMultiple/>
+                <br /><br />
+                <Slick2/>
             </>
         );
     }
