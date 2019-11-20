@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import '@vkontakte/vkui/dist/vkui.css';
 import 'overlayscrollbars/css/OverlayScrollbars.css';
 import './assets/css/main.css'
 import './assets/css/anumation.css';
