@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { NavLink } from "react-router-dom";
 import './index.css';
 import { ChannelList } from "../../components/channel-list";
 import { Search } from "@vkontakte/vkui";
+import { MenuLite } from "../../components/icons";
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 import TrackVisibility from 'react-on-screen';
+import classname  from 'classnames';
 
 const Aside = () => {
     const [pulled, setPulled] = useState(false);
@@ -32,40 +35,40 @@ const Aside = () => {
                     </span>
                 </a>
 
-                <div className={ "off-canvas-overlay" + (isPulled() ? ' overlay-on' : '')}></div>
+                <div className={classname({
+                    'off-canvas-overlay': true,
+                    'overlay-on': isPulled()
+                })}></div>
 
-                <div className={ "adonis-playlist off-canvas off-canvas-right d-flex flex-column" + (isPulled() ? ' show' : '')}>
+                <div className={ classname({
+                    'adonis-playlist off-canvas off-canvas-right d-flex flex-column': true,
+                    'show': isPulled()
+                })}>
                     <div className="close-header">
                         <a onClick={ toggle } className="close-offcanvas m-2">
                             <span className="adonis-icon icon-3x">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
-                                    <path d="M13.4 12l5.3-5.3c0.4-0.4 0.4-1 0-1.4s-1-0.4-1.4 0l-5.3 5.3-5.3-5.3c-0.4-0.4-1-0.4-1.4 0s-0.4 1 0 1.4l5.3 5.3-5.3 5.3c-0.4 0.4-0.4 1 0 1.4 0.2 0.2 0.4 0.3 0.7 0.3s0.5-0.1 0.7-0.3l5.3-5.3 5.3 5.3c0.2 0.2 0.5 0.3 0.7 0.3s0.5-0.1 0.7-0.3c0.4-0.4 0.4-1 0-1.4l-5.3-5.3z"></path>
-                                </svg>
+                                <MenuLite />
                             </span>
                         </a>
                     </div>
 
                     <div className="col-md-3 flex-column-sidebar-md sidebar">
-                        <div className="widget">
-                            <h4>Go Moblie</h4>
-                            <div className="mobile-apps mb-3 mt-4">
-                                <ul className="list-inline d-inline-flex">
-                                    <li className="mr-2">
-                                        <a target="_blank" href="https://play.google.com">
-                                            <img src={require('../../assets/media/google.png')} alt="" />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="https://itunes.apple.com">
-                                            <img src={require('../../assets/media/ios.png')} alt="" />
-                                        </a>
-                                    </li>
-                                </ul>
+                        <div className="col-md-12">
+                            <div className="footer-about">
+                                <div className="widget">
+                                    <h5 className="widget-title">Navigation</h5>
+                                    <ul className="list-inline vertical-list">
+                                        <li><NavLink to="/home">Go to Home</NavLink></li>
+                                        <li><NavLink to="/help">Help &amp; Support</NavLink></li>
+                                        <li><NavLink to="/contact">Contact</NavLink></li>
+                                        <li><NavLink to="/privacy">Terms &amp; Privacy</NavLink></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
                         <div style={{marginBottom: '5px'}}>
-                            <Search value={ search } onChange={ onSearch } theme="default" />
+                            <Search value={ search } onChange={ onSearch } theme="light" />
                         </div>
 
                         { /* save memory
