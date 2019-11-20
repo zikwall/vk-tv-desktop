@@ -116,6 +116,14 @@
     background-color: #000;
 }
 
+.opacity-one {
+    opacity: 1;
+}
+
+.translate550 {
+    transform: translateX(57vh);
+}
+
 /*
 .jwplayer {
     border-radius: 10px;

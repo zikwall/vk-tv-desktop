@@ -2451,7 +2451,7 @@ tr.border-bottom-0 th {
     transform: translate(100%, 0)
 }
 
-body.off-canvas-overlay-on {
+div.off-canvas-overlay-on {
     overflow-x: hidden
 }
 
@@ -2468,7 +2468,7 @@ body.off-canvas-overlay-on {
     z-index: -1
 }
 
-body.off-canvas-overlay-on .off-canvas-overlay {
+div.off-canvas-overlay-on .off-canvas-overlay {
     opacity: 1;
     z-index: 1100;
     visibility: visible

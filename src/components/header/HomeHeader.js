@@ -1,6 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styled, { keyframes } from 'styled-components';
 import { rubberBand } from 'react-animations';
+import { Offcanvas } from "../../containers/offcanvas";
 
 const HomeHeader = (props) => {
     const rubberBandAnimation = keyframes`${rubberBand}`;
@@ -13,6 +15,7 @@ const HomeHeader = (props) => {
             <div className="master-container-fluid header-inner">
                 <div className="row">
                     <div className="col-2 col-md-4 d-flex align-items-center">
+                        <Offcanvas />
                     </div>
                     <div className="col-auto col-md-4 align-items-center justify-content-center d-none d-md-flex">
                         <RubberBandDiv>
