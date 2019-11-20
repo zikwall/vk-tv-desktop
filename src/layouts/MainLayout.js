@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Home } from "../pages/home";
+import { Home, About } from "../pages/home";
 import { HomeHeader } from "../components/header";
 
 const MainLayout = ({ match }) => {
@@ -12,7 +12,8 @@ const MainLayout = ({ match }) => {
                 <div className="master-container-fluid">
                     <Switch>
                         <Route exact path="/" component={ Home } />
-                        <Route path="/home" component={ Home } />
+                        <Route exact path="/home" component={ Home } />
+                        <Route path="/home/about" component={ About } />
                     </Switch>
                 </div>
             </main>
