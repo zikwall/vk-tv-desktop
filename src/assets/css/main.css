@@ -2421,8 +2421,8 @@ tr.border-bottom-0 th {
 }
 
 .off-canvas.off-canvas-left.show {
-    -webkit-box-shadow: 13px 36px 35px 0 rgba(165, 149, 198, 0.28);
-    box-shadow: 13px 36px 35px 0 rgba(165, 149, 198, 0.28);
+    -webkit-box-shadow: 1px 35px 15px 0 rgba(165, 149, 198, 0.28);
+    box-shadow: 1px 35px 15px 0 rgba(165, 149, 198, 0.28);
     transform: translate(100%, 0)
 }
 
@@ -3310,7 +3310,7 @@ a.reverse:hover {
     overflow-x: hidden;
     height: 100%;
     max-width: 100%;
-    width: 100%
+    width: 87%
 }
 
 #primary-menu-offcanvas {
