@@ -48,13 +48,19 @@ const Offcanvas = () => {
                             'nav-item': true,
                             'opacity1 translate550': hovered
                         })}>
-                            <NavLink className="nav-link" to="/home/store">Store</NavLink>
+                            <NavLink className="nav-link" to="/home/help">Help &amp; Support</NavLink>
                         </li>
                         <li className={cn({
                             'nav-item': true,
                             'opacity1 translate550': hovered
                         })}>
-                            <NavLink className="nav-link" to="/home/library">Library</NavLink>
+                            <NavLink className="nav-link" to="/home/contact">Contact</NavLink>
+                        </li>
+                        <li className={cn({
+                            'nav-item': true,
+                            'opacity1 translate550': hovered
+                        })}>
+                            <NavLink className="nav-link" to="/home/privacy">Terms &amp; Privacy</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -78,10 +84,10 @@ const Offcanvas = () => {
                             <NavLink className="nav-link" to="/online">Online</NavLink>
                         </li>
                         <li className="menu-item">
-                            <NavLink className="nav-link" to="/home/store">Store</NavLink>
+                            <NavLink className="nav-link" to="/home/help">Help &amp; Support</NavLink>
                         </li>
                         <li className="menu-item">
-                            <NavLink className="nav-link" to="/home/library">Library</NavLink>
+                            <NavLink className="nav-link" to="/home/privacy">Terms &amp; Privacy</NavLink>
                         </li>
                     </ul>
                 </div>
