@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import '@vkontakte/vkui/dist/vkui.css';
 import 'overlayscrollbars/css/OverlayScrollbars.css';
+/*import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';*/
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import './assets/css/main.css'
 import './assets/css/anumation.css';
 import './assets/css/custom.css';

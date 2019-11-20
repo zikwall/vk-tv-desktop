@@ -4,7 +4,7 @@ import { TVprogram } from "./components/tvprogram";
 import { Description } from "./components/description";
 import { UsersStack, Cell, List, Div, HorizontalScroll } from "@vkontakte/vkui";
 
-class Main extends React.Component {
+class Channel extends React.Component {
     render() {
         return (
             <>
@@ -55,4 +55,4 @@ class Main extends React.Component {
     }
 }
 
-export default Main;
+export default Channel;
