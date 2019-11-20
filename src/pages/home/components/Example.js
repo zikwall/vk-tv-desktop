@@ -41,7 +41,7 @@ export const Item2 = () => {
     let imgN = getRandomInt(6);
 
     return (
-        <div className="item" style={{width: '450px', marginLeft: '10px'}}>
+        <div className="item" style={{width: '400px', marginLeft: '10px'}}>
             <div className="music-img-box">
                 <div className="img-box box-rounded-sm">
                     <img className="retina" src={`https://iconicthemes.net/adonis/assets/images/videos/videos-${imgN}.jpg`}
@@ -56,6 +56,53 @@ export const Item2 = () => {
                                     xlinkHref="#icon-horizontal-dots"></use></svg></span></span>
                         </div>
                     </div>
+                </div>
+                <h6 className="title"><a href="#">Vestibulum nibh lorem ipsum</a></h6>
+                <p className="sub-title category"><a href="#">Adonis Music Pop</a></p>
+            </div>
+        </div>
+    );
+};
+
+export const Item3 = () => {
+    let imgN = getRandomInt(16);
+    let imgN2 = getRandomInt(16);
+
+    return (
+        <div className="item" style={{width: '166.516px'}}>
+            <div className="music-img-box mb-e-30 mb-e-md-40">
+                <div className="img-box box-rounded-sm img-box-md">
+                    <img className="retina" src={`https://iconicthemes.net/adonis/assets/images/playlists/playlist-${imgN}.jpg`}
+                         data-2x={`https://iconicthemes.net/adonisassets/images/playlists/playlist-${imgN}@2x.jpg`} alt="" />
+                        <div className="hover-state">
+                            <div className="absolute-bottom-left pl-e-15 pb-e-15">
+                                <span className="pointer play-btn-dark round-btn"><i className="play-icon"></i></span>
+                            </div>
+                            <div className="absolute-top-right pr-e-15 pt-e-15">
+                                <span className="pointer dropdown-menu-toggle"><span className="adonis-icon icon-4x"><svg
+                                    xmlns="http://www.w3.org/2000/svg" version="1.1"><use
+                                    xlinkHref="#icon-horizontal-dots"></use></svg></span></span>
+                            </div>
+                        </div>
+                </div>
+                <h6 className="title"><a href="#">Vestibulum nibh lorem ipsum</a></h6>
+                <p className="sub-title category"><a href="#">Adonis Music Pop</a></p>
+            </div>
+            <div className="music-img-box">
+                <div className="img-box box-rounded-sm img-box-md">
+                    <img className="retina"
+                         src={`https://iconicthemes.net/adonis/assets/images/playlists/playlist-${imgN2}.jpg`}
+                         data-2x={`https://iconicthemes.net/adonisassets/images/playlists/playlist-${imgN2}@2x.jpg`} alt="" />
+                        <div className="hover-state">
+                            <div className="absolute-bottom-left pl-e-15 pb-e-15">
+                                <span className="pointer play-btn-dark round-btn"><i className="play-icon"></i></span>
+                            </div>
+                            <div className="absolute-top-right pr-e-15 pt-e-15">
+                                <span className="pointer dropdown-menu-toggle"><span className="adonis-icon icon-4x"><svg
+                                    xmlns="http://www.w3.org/2000/svg" version="1.1"><use
+                                    xlinkHref="#icon-horizontal-dots"></use></svg></span></span>
+                            </div>
+                        </div>
                 </div>
                 <h6 className="title"><a href="#">Vestibulum nibh lorem ipsum</a></h6>
                 <p className="sub-title category"><a href="#">Adonis Music Pop</a></p>

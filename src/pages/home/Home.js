@@ -1,6 +1,6 @@
 import React from 'react';
 import { Group, Gallery } from "@vkontakte/vkui";
-import Slick, { SlickMultiple, Slick2 } from "./components/Slick";
+import Slick, { SlickMultiple, Slick2, Slick3 } from "./components/Slick";
 
 class Home extends React.Component {
 
@@ -13,6 +13,8 @@ class Home extends React.Component {
                 <SlickMultiple/>
                 <br /><br />
                 <Slick2/>
+                <br /><br />
+                <Slick3/>
             </>
         );
     }
