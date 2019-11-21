@@ -26,6 +26,7 @@ const Search = ({ onSearch }) => {
     const handleClearClick = (e) => {
         inputRef.current.value = '';
         setIsEmpty(true);
+        onSearch('');
     };
 
     return (
