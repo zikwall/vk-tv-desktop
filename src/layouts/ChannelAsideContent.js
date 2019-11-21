@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 import { ChannelList } from "../components/channel-list";
-import { Search } from "@vkontakte/vkui";
+import { Search } from "../components/ui";
 import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
 import TrackVisibility from 'react-on-screen';
 
@@ -29,7 +29,7 @@ const ChannelAsideContent = () => {
             </div>
 
             <div style={{marginBottom: '5px'}}>
-                <Search value={ search } onChange={ onSearch } theme="light" />
+                <Search value={ search } onSearch={ onSearch } />
             </div>
 
 
