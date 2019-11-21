@@ -26,7 +26,7 @@ const ChannelList = (props) => {
         });
     };
 
-    const selectChannelOnClick = (e) => {
+    const handleSelectChannel = (e) => {
         e.preventDefault();
         //let epg_id = e.currentTarget.dataset.epgid;
         let channel_id = e.currentTarget.dataset.channelid;
@@ -56,7 +56,7 @@ const ChannelList = (props) => {
                     <a href="#"
                        data-channelid={ index }
                        data-epgid={ channel.epg_id }
-                       onClick={ selectChannelOnClick }> { channel.name }
+                       onClick={ handleSelectChannel }> { channel.name }
                     </a>
                     <Progress value={ randomInteger(0, 100) } />
                 </Cell>
