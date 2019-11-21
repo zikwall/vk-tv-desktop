@@ -124,6 +124,10 @@
     transform: translateX(57vh);
 }
 
+body a, body a:hover, body a:focus, body a:active, body a.active {
+    color: #3c3939;
+    text-decoration: none;
+}
 /*
 .jwplayer {
     border-radius: 10px;
