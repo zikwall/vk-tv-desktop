@@ -1,0 +1,92 @@
+ul.tele_program_list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+ol, ul {
+    list-style: none;
+}
+p.tele_program_item_title {
+    margin-bottom: 0rem;
+}
+.tele_programs {
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: background-color .1s ease-out;
+    transition: background-color .1s ease-out;
+}
+.tele_program {
+    border-radius: 3px;
+    background-color: #fff;
+    position: relative;
+    text-decoration: none;
+    -webkit-transition: background-color .1s ease-out;
+    transition: background-color .1s ease-out;
+    z-index: 2;
+    margin-bottom: 5px;
+}
+.tele_program_item_link {
+    border-radius: 5px;
+    color: #000;
+    display: block;
+    line-height: 18px;
+    text-decoration: none;
+}
+.tele_program_item_link {
+    padding: 5px 0px 2px 57px;
+}
+.tele_program_item_link:hover {
+    background-color: #f5f0f0
+}
+.tele_program_item_time {
+    border-radius: 3px;
+    left: 3px;
+    width: 40px;
+    height: 18px;
+    position: absolute;
+    top: 4px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 19px;
+}
+.tele_program_item_title {
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.tele_program_item_title_wrap {
+    display: inline;
+    white-space: normal;
+    vertical-align: top;
+}
+.ui_actions_menu_icons {
+    float: right;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 5px;
+    margin: 2px 7px 0 0;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.ui_actions_menu_icons {
+    position: absolute;
+    width: 22px;
+    height: 24px;
+    cursor: pointer;
+    outline: none;
+}
+.blind_label {
+    height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+    outline: none;
+}
+.blind_label, div#utils {
+    position: absolute;
+    overflow: hidden;
+}

@@ -21,15 +21,15 @@ export const BlockHeader = ({ children }) => {
 
 export const BlockH2 = ({ children }) => {
     return (
-        <div className="ui_block_h2">
+        <h2 className="ui_block_h2">
             { children }
-        </div>
+        </h2>
     );
 };
 
-const Block = ({children }) => {
+const Block = ({children, style }) => {
     return (
-        <div className="ui_block">
+        <div className="ui_block" style={style}>
             { children }
         </div>
     );

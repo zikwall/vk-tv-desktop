@@ -17,9 +17,11 @@ export const Tab = ({ onClick, children, selected }) => {
 
 const Tabs = ({ children }) => {
     return (
-        <ul className="ui_tabs clear_fix">
-            { children }
-        </ul>
+        <>
+            <ul className="ui_tabs clear_fix page_info_tabs">
+                { children }
+            </ul>
+        </>
     );
 };
 

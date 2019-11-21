@@ -123,7 +123,9 @@
 .translate550 {
     transform: translateX(57vh);
 }
-
+.clear_fix {
+    display: block!important;
+}
 body a, body a:hover, body a:focus, body a:active, body a.active {
     color: #3c3939;
     text-decoration: none;

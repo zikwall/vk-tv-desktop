@@ -1,4 +1,4 @@
-.grid-event {
+.tele_program {
     border-radius: 3px;
     background-color: #fff;
     position: relative;
@@ -7,13 +7,13 @@
     transition: background-color .1s ease-out;
     z-index: 2;
 }
-.grid-event__item-link {
+.tele_program_item_link {
     color: #000;
     display: block;
     line-height: 18px;
     text-decoration: none;
 }
-.grid-event__item-link {
+.tele_program_item_link {
     padding: 4px 5px 4px 57px;
 }
 .link {
@@ -24,7 +24,7 @@
     transition: color .15s ease-in-out;
 }
 
-.grid-event__item-time {
+.tele_program_item_time {
     font-family: Yandex-Sans-Text-Medium,"sans-serif";
     border-radius: 3px;
     font-weight: 500;
@@ -37,16 +37,16 @@
     text-align: center;
     line-height: 19px;
 }
-.grid-event__item-title {
+.tele_program_item_title {
     vertical-align: baseline;
     white-space: nowrap;
 }
-.grid-event__item-title-wrap {
+.tele_program_item_title_wrap {
     display: inline;
     white-space: normal;
     vertical-align: top;
 }
-.grid-event__icons-wrapper {
+.tele_program__icons-wrapper {
     display: inline;
     vertical-align: top;
     white-space: nowrap;

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Player } from "../../components/player";
 import { Description } from "./components/description";
-import { Underdevelopment } from "../../components/underdevelopment";
+import { ProgramList } from "../../components/program";
+import { KittenLike } from "../../components/like";
 
 class Channel extends React.Component {
     render() {
@@ -16,7 +17,10 @@ class Channel extends React.Component {
                                 <Player />
                             </div>
                         </div>
-                        <Underdevelopment />
+                        <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+                            <KittenLike />
+                        </div>
+                        <ProgramList />
                     </div>
                     <div className="col-md-5">
                         <Description />
