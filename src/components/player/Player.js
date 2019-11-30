@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import ReactJWPlayer from 'react-jw-player';
 import { getChannels, getChannelsPending, getSelectChannel } from "../../redux/reducers";
@@ -6,18 +6,29 @@ import { ScreenSpinner } from "@vkontakte/vkui";
 import { connect } from "react-redux";
 import { useSnackbar, WithSnackbarProps } from 'notistack';
 import './index.css';
+import { ArrayHelper } from "../../util";
 
 const Player = (props) => {
+    const AdList = [
+        'https://an.yandex.ru/meta/347075?imp-id=2&charset=UTF-8&target-ref=http%3A%2F%2Flimehd.ru&page-ref=http%3A%2F%2Flimehd.ru&rnd={random}',
+        'http://ads.adfox.ru/315450/getCode?p1=cgmqy&p2=frfe&pfc=clrey&pfb=gwhhh&puid1=&puid2=&puid3=&pr={random}&ptrc=b',
+        'https://out.pladform.ru/getVast?pl=116720&type=preroll&license=1&thematic=1762&age=5&duration=0&target=mobileapp&adformat=3&advertiser_id=',
+    ];
+
+    // move to redux
+    let Snack;
+
     const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+    const [ lastAd, setLastAd ] = useState(null);
 
     let { channel, pending } = props;
 
     if (pending === true) {
-        return <ScreenSpinner />;
+        return <ScreenSpinner size="l"/>;
     }
 
     if (!channel.url) {
-        return <ScreenSpinner />
+        return <ScreenSpinner size="l"/>
     }
 
     const playlist = [{
@@ -27,39 +38,85 @@ const Player = (props) => {
         mute: true
     }];
 
+    const onPlaylist = (e) => {
+        //Player.playAd(addPreroll(e));
+    };
+
     const onReady = (event) => {
         const player = window.jwplayer('my-unique-id');
-        closeSnackbar(props.snack)
+
+        /*player.on('playlist', (e) => {
+            player.playAd(addPreroll(e))
+        });*/
+
+        closeSnackbar(Snack)
     };
 
     const onVideoLoad = (event) => {
-        closeSnackbar(props.snack)
+        //closeSnackbar(Snack);
+    };
+
+    const addPreroll = (video) => {
+        return getAd();
+    };
+
+    const getAd = () => {
+        let ad = generateAd();
+        let vad = validateAd(ad);
+
+        // debug
+        console.log(vad);
+
+        return vad;
+    };
+
+    const validateAd = (ad) => {
+        if (ad.includes('{random}')) {
+            ad = ad.replace('{random}', random(1, 4294967295), 'g')
+        }
+
+        return ad;
+    };
+
+    const random = (max) => {
+        return Math.floor(Math.random() * Math.floor(max));
+    };
+
+    const generateAd = () => {
+        let ad = ArrayHelper.random(AdList);
+
+        if (lastAd === null) {
+            setLastAd(ad);
+            return ad;
+        }
+
+        if (ad === lastAd) {
+            return generateAd();
+        }
+
+        setLastAd(ad);
+        return ad;
     };
 
     return (
         <div className="video-container player-responsive" style={{width: '100%'}}>
             <ReactJWPlayer
-                playerId='my-unique-idxxxwsws'
-                playerScript='https://cdn.jwplayer.com/libraries/31C1vqmP.js'
-                playlist={playlist}
-                isAutoPlay={true}
+                playerId='my-unique-id'
+                playerScript='/jw/jw.js'
+                playlist={ playlist }
+                isAutoPlay={ true }
                 onReady={ onReady }
                 onError={(e) => {
-                    props.snack = enqueueSnackbar('Не удалось загрузить канал :(', {
+                    Snack = enqueueSnackbar('Не удалось загрузить канал :(', {
                         variant: 'error',
                         persist: true,
                     });
                 }}
                 onVideoLoad={ onVideoLoad }
+                onPlaylist={ onPlaylist }
+                generatePrerollUrl={ addPreroll }
                 advertising={{
                     client:  "googima",
-                    schedule: {
-                        pre:{
-                            offset: "pre",
-                            tag: "https://pubads.g.doubleclick.net/gampad/live/ads?iu=/14008522/video-jwp&description_url=https%3A%2F%2Flookandcook.com&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=400x300|640x480|970x90&min_ad_duration=10000&max_ad_duration=15000&unviewed_position_start=1"
-                        }
-                    },
-                    vpaidmode: "insecure"
                 }}
             />
         </div>

@@ -2520,7 +2520,9 @@ window.jwplayer = function(t) {
             // crack 1
 
             if ("pro" === (e = s[0]) && (e = "premium"), Object(i.a)(e)("setup") || (e = "invalid"), s.length > 2) {
-                n = s[1];
+                // crack
+                //n = s[1];
+                n = 'wjhsbkugwsvwnspmwHBWSWNSKMjlnwuwisnwnsnwsmwsw7w69s8uwBBvIBWNLMWKSIW';
                 var l = parseInt(s[2]);
                 l > 0 && (c = new Date).setTime(l)
             }
@@ -2528,11 +2530,12 @@ window.jwplayer = function(t) {
             e = "invalid"
         }
         this.edition = function() {
-            //return e
+            return e
             // crack 2
-            return 'premium';
+            //return 'pro';
             // crack 2
         }, this.token = function() {
+            // crack
             return n
         }, this.expiration = function() {
             return c
