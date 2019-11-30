@@ -31,6 +31,13 @@ const Player = (props) => {
         return <ScreenSpinner size="l"/>
     }
 
+    const playlistVR = [{
+        file: 'https://cdn.jwplayer.com/videos/AgqYcfAT-8yQ1cYbs.mp4',
+        title: 'Caminandes VR',
+        mediaid: 'AgqYcfAT',
+        stereomode: 'monoscopic'
+    }];
+
     const playlist = [{
         file: channel.url,
         image: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
